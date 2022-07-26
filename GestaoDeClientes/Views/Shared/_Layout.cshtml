@@ -1,75 +1,513 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - GestaoDeClientes</title>
 
-    <environment include="Development">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-        <link rel="stylesheet" href="~/css/site.css" />
-    </environment>
-    <environment exclude="Development">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
-              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
-        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
-    </environment>
+<!DOCTYPE html>
+<!-- saved from url=(0066)https://coderthemes.com/moltran/layouts/blue-horizontal/index.html -->
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>@ViewData["Title"] - NXT Monitoramento</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Responsive bootstrap 4 admin template" name="description">
+    <meta content="Coderthemes" name="author">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="https://coderthemes.com/moltran/layouts/blue-horizontal/assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <!-- Plugins css-->
+    <link href="~/css/sweetalert2.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- App css -->
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-stylesheet">
+    <link href="~/css/icons.min.css" rel="stylesheet" type="text/css">
+    <link href="~/css/app.min.css" rel="stylesheet" type="text/css" id="app-stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
 </head>
-<body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">GestaoDeClientes</a>
+
+<body data-layout="horizontal">
+
+    <!-- Begin page -->
+    <div id="wrapper">
+
+        <!-- Navigation Bar-->
+        <header id="topnav">
+            <!-- Topbar Start -->
+            <div class="navbar-custom">
+                <div class="container-fluid">
+                    <ul class="list-unstyled topnav-menu float-right mb-0">
+
+                        <li class="dropdown notification-list">
+                            <!-- Mobile menu toggle-->
+                            <a class="navbar-toggle nav-link">
+                                <div class="lines">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </a>
+                            <!-- End mobile menu toggle-->
+                        </li>
+
+                        <!--li class="dropdown d-none d-lg-block">
+                            <a class="nav-link dropdown-toggle mr-0 waves-effect" data-toggle="dropdown" href="https://coderthemes.com/moltran/layouts/blue-horizontal/index.html#" role="button" aria-haspopup="false" aria-expanded="false">
+                                <img src="~/images/us.jpg" alt="user-image" class="mr-2" height="12"> <span class="align-middle">English <i class="mdi mdi-chevron-down"></i> </span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <img src="~/images/germany.jpg" alt="user-image" class="mr-2" height="12"> <span class="align-middle">German</span>
+                                </a>
+
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <img src="~/images/italy.jpg" alt="user-image" class="mr-2" height="12"> <span class="align-middle">Italian</span>
+                                </a>
+
+
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <img src="~/images/spain.jpg" alt="user-image" class="mr-2" height="12"> <span class="align-middle">Spanish</span>
+                                </a>
+
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <img src="~/images/russia.jpg" alt="user-image" class="mr-2" height="12"> <span class="align-middle">Russian</span>
+                                </a>
+                            </div>
+                        </li-->
+
+                        <li class="dropdown notification-list d-none d-md-inline-block">
+                            <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/index.html#" id="btn-fullscreen" class="nav-link waves-effect">
+                                <i class="mdi mdi-crop-free noti-icon"></i>
+                            </a>
+                        </li>
+
+                        <li class="dropdown notification-list">
+                            <a class="nav-link dropdown-toggle  waves-effect waves-light" data-toggle="dropdown" href="https://coderthemes.com/moltran/layouts/blue-horizontal/index.html#" role="button" aria-haspopup="false" aria-expanded="false">
+                                <i class="mdi mdi-bell noti-icon"></i>
+                                <span class="badge badge-danger rounded-circle noti-icon-badge">3</span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-lg" style="">
+
+                                <!-- item-->
+                                <div class="dropdown-item noti-title">
+                                    <h5 class="font-16 m-0">
+                                        <span class="float-right">
+                                            <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/index.html" class="text-dark">
+                                                <small>Clear All</small>
+                                            </a>
+                                        </span>Notification
+                                    </h5>
+                                </div>
+
+                                <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 306.719px;">
+                                    <div class="slimscroll noti-scroll" style="overflow: hidden; width: auto; height: 306.719px;">
+
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                            <div class="notify-icon">
+                                                <i class="fa fa-user-plus text-info"></i>
+                                            </div>
+                                            <p class="notify-details">
+                                                New user registered
+                                                <small class="noti-time">You have 10 unread messages</small>
+                                            </p>
+                                        </a>
+
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                            <div class="notify-icon text-success">
+                                                <i class="far fa-gem text-primary"></i>
+                                            </div>
+                                            <p class="notify-details">
+                                                New settings
+                                                <small class="noti-time">There are new settings available</small>
+                                            </p>
+                                        </a>
+
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                            <div class="notify-icon text-danger">
+                                                <i class="far fa-bell text-danger"></i>
+                                            </div>
+                                            <p class="notify-details">
+                                                Updates
+                                                <small class="noti-time">There are 2 new updates available</small>
+                                            </p>
+                                        </a>
+                                    </div><div class="slimScrollBar" style="background: rgb(158, 165, 171); width: 5px; position: absolute; top: 0px; opacity: 0.4; display: block; border-radius: 7px; z-index: 99; right: 1px;"></div><div class="slimScrollRail" style="width: 5px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div>
+                                </div>
+
+                                <!-- All-->
+                                <a href="javascript:void(0);" class="dropdown-item text-center notify-item notify-all">
+                                    See all notifications
+                                </a>
+
+                            </div>
+                        </li>
+
+
+
+                        <li class="dropdown notification-list">
+                            <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect waves-light" data-toggle="dropdown" href="https://coderthemes.com/moltran/layouts/blue-horizontal/index.html#" role="button" aria-haspopup="false" aria-expanded="false">
+                                <img src="~/images/avatar-1.jpg" alt="user-image" class="rounded-circle">
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+                                <!-- item-->
+                                <div class="dropdown-header noti-title">
+                                    <h6 class="text-overflow m-0">Welcome !</h6>
+                                </div>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <i class="mdi mdi-face-profile"></i>
+                                    <span>Profile</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <i class="mdi mdi-settings"></i>
+                                    <span>Settings</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <i class="mdi mdi-lock"></i>
+                                    <span>Lock Screen</span>
+                                </a>
+
+                                <div class="dropdown-divider"></div>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <i class="mdi mdi-power-settings"></i>
+                                    <span>Logout</span>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li class="dropdown notification-list">
+                            <a href="javascript:void(0);" class="nav-link right-bar-toggle waves-effect waves-light">
+                                <i class="mdi mdi-settings-outline noti-icon"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- LOGO -->
+                    <div class="logo-box">
+                        <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/index.html" class="logo text-center logo-dark">
+                            <span class="logo-lg">
+                                <img src="~/images/logo-dark.png" alt="" height="16">
+                                <!-- <span class="logo-lg-text-dark">Moltran</span> -->
+                            </span>
+                            <span class="logo-sm">
+                                <!-- <span class="logo-lg-text-dark">M</span> -->
+                                <img src="~/images/logo-sm.png" alt="" height="25">
+                            </span>
+                        </a>
+
+                        <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/index.html" class="logo text-center logo-light">
+                            <span class="logo-lg">
+                                <img src="~/images/nxt_logo.jpg" alt="" height="50">
+                                <!-- <span class="logo-lg-text-dark">Moltran</span> -->
+                            </span>
+                            <span class="logo-sm">
+                                <!-- <span class="logo-lg-text-dark">M</span> -->
+                                <img src="~/images/nxt_logo.jpg" alt="" height="80">
+                            </span>
+                        </a>
+                    </div>
+                    <!-- LOGO -->
+
+                    <ul class="list-unstyled topnav-menu topnav-menu-left m-0">
+
+                        <li class="d-none d-sm-block">
+                            <form class="app-search">
+                                <div class="app-search-box">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search...">
+                                        <div class="input-group-append">
+                                            <button class="btn" type="submit">
+                                                <i class="fas fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
-                    <li><a asp-area="" asp-controller="Clientes" asp-action="Clientes">Pessoas</a></li>
-                </ul>
+            <!-- end Topbar -->
+
+            <div class="topbar-menu active">
+                <div class="container-fluid in">
+                    <div id="navigation" class="active">
+                        <!-- Navigation Menu-->
+                        <ul class="navigation-menu in">
+
+                            <li class="has-submenu active">
+                                <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/index.html" class="active">
+                                    <i class="mdi mdi-home"></i>Dashboard
+                                </a>
+                            </li>
+
+                            <li class="has-submenu">
+                                <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/index.html#"> <i class="mdi mdi-palette"></i> Gestão de Mídias </a>
+                                <ul class="submenu">
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/ui-typography.html">Typography</a></li>
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/ui-buttons.html">Buttons</a></li>
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/ui-cards.html">Cards</a></li>
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/ui-checkbox-radio.html">Checkboxs-Radios</a></li>
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/ui-tabs-accordions.html">Tabs &amp; Accordions</a></li>
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/ui-modals.html">Modals</a></li>
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/ui-bootstrap.html">BS Elements</a></li>
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/ui-progressbars.html">Progress Bars</a></li>
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/ui-notification.html">Notification</a></li>
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/ui-sweet-alert2.html">Sweet-Alert2</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has-submenu">
+                                <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/index.html#"> <i class="mdi mdi-invert-colors"></i> Segurança </a>
+                                <ul class="submenu">
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/components-grid.html">Grid</a></li>
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/components-portlets.html">Portlets</a></li>
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/components-widgets.html">Widgets</a></li>
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/components-nestable-list.html">Nestable</a></li>
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/components-rangeslider.html">Sliders </a></li>
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/components-gallery.html">Gallery </a></li>
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/components-pricing.html">Pricing Table </a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has-submenu">
+                                <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/index.html#">
+                                    <i class="mdi mdi-atom-variant"></i> Configurações
+                                </a>
+                                <ul class="submenu">
+
+                                    <li class="has-submenu">
+                                        <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/index.html#"> Icons  <div class="arrow-down"></div></a>
+                                        <ul class="submenu">
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/icons-material.html">Material Design</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/icons-ion.html">Ion Icons</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/icons-fontawesome.html">Font awesome</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/index.html#"> Forms <div class="arrow-down"></div></a>
+                                        <ul class="submenu">
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/form-elements.html">General Elements</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/form-validation.html">Form Validation</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/form-advanced.html">Advanced Form</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/form-wizard.html">Form Wizard</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/form-quilljs.html">Quilljs Editor</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/form-uploads.html">Multiple File Upload</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/form-xeditable.html">X-editable</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/index.html#"> Tables <div class="arrow-down"></div></a>
+                                        <ul class="submenu">
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/tables-basic.html">Basic Tables</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/tables-datatable.html">Data Table</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/tables-editable.html">Editable Table</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/tables-responsive.html">Responsive Table</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/index.html#"> Charts <div class="arrow-down"></div></a>
+                                        <ul class="submenu">
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/charts-morris.html">Morris Chart</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/charts-chartjs.html">Chartjs</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/charts-flot.html">Flot Chart</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/charts-peity.html">Peity Charts</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/charts-sparkline.html">Sparkline Charts</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/charts-radial.html">Radial charts</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/charts-other.html">Other Chart</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/index.html#"> Maps  <div class="arrow-down"></div></a>
+                                        <ul class="submenu">
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/maps-google.html"> Google Map</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/maps-vector.html"> Vector Map</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/index.html#"> Mail  <div class="arrow-down"></div></a>
+                                        <ul class="submenu">
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/mail-inbox.html">Inbox</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/mail-compose.html">Compose Mail</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/mail-read.html">View Mail</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!--li class="has-submenu">
+                                <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/index.html#">
+                                    <i class="mdi mdi-google-pages"></i> Pages
+                                </a>
+                                <ul class="submenu megamenu">
+                                    <li>
+                                        <ul>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-profile.html">Profile</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-timeline.html">Timeline</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-invoice.html">Invoice</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-email-template.html">Email template</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-contact.html">Contact-list</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-login.html">Login</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-register.html">Register</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-recoverpw.html">Recover Password</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-lock-screen.html">Lock Screen</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-blank.html">Blank Page</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-maintenance.html">Maintenance</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-coming-soon.html">Coming-soon</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-404.html">404 Error</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-404_alt.html">404 alt</a></li>
+                                            <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-500.html">500 Error</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li-->
+
+                            <li class="has-submenu last-elements">
+                                <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/index.html#"> <i class="mdi mdi-table-plus"></i> Suporte </a>
+                                <ul class="submenu">
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/layouts-vertical.html">Vertical Layout</a></li>
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/layouts-topbar-light.html">Topbar Light</a></li>
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/layouts-center-menu.html">Center Menu</a></li>
+                                    <li><a href="https://coderthemes.com/moltran/layouts/blue-horizontal/layouts-normal-header.html">Unsticky Header</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <!-- End navigation menu -->
+
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- end #navigation -->
+                </div>
+                <!-- end container -->
+            </div>
+            <!-- end navbar-custom -->
+        </header>
+        <!-- End Navigation Bar-->
+        <!-- ============================================================== -->
+        <!-- Start Page Content here -->
+        <!-- ============================================================== -->
+
+        <div class="content-page">
+            <div class="container body-content">
+                @RenderBody()
+                <hr />
+
+                <!-- Footer Start -->
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                2022 - NXT Monitoramento
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- end Footer -->
+
             </div>
         </div>
-    </nav>
 
-    <partial name="_CookieConsentPartial" />
+        <!-- ============================================================== -->
+        <!-- End Page content -->
+        <!-- ============================================================== -->
 
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; 2022 - GestaoDeClientes</p>
-        </footer>
+    </div>
+    <!-- END wrapper -->
+    <!-- Right Sidebar -->
+    <div class="right-bar">
+        <div class="rightbar-title">
+            <a href="javascript:void(0);" class="right-bar-toggle float-right">
+                <i class="mdi mdi-close"></i>
+            </a>
+            <h4 class="font-17 m-0 text-white">Theme Customizer</h4>
+        </div>
+        <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 600px;">
+            <div class="slimscroll-menu" style="overflow: hidden; width: auto; height: 600px;">
+
+                <div class="p-4">
+                    <div class="alert alert-warning" role="alert">
+                        <strong>Customize </strong> the overall color scheme, layout, etc.
+                    </div>
+                    <div class="mb-2">
+                        <img src="~/images/light.png" class="img-fluid img-thumbnail" alt="">
+                    </div>
+                    <div class="custom-control custom-switch mb-3">
+                        <input type="checkbox" class="custom-control-input theme-choice" id="light-mode-switch" checked="">
+                        <label class="custom-control-label" for="light-mode-switch">Light Mode</label>
+                    </div>
+
+                    <div class="mb-2">
+                        <img src="~/images/dark.png" class="img-fluid img-thumbnail" alt="">
+                    </div>
+                    <div class="custom-control custom-switch mb-3">
+                        <input type="checkbox" class="custom-control-input theme-choice" id="dark-mode-switch" data-bsstyle="assets/css/bootstrap-dark.min.css" data-appstyle="assets/css/app-dark.min.css">
+                        <label class="custom-control-label" for="dark-mode-switch">Dark Mode</label>
+                    </div>
+
+                    <div class="mb-2">
+                        <img src="~/images/rtl.png" class="img-fluid img-thumbnail" alt="">
+                    </div>
+                    <div class="custom-control custom-switch mb-5">
+                        <input type="checkbox" class="custom-control-input theme-choice" id="rtl-mode-switch" data-appstyle="assets/css/app-rtl.min.css">
+                        <label class="custom-control-label" for="rtl-mode-switch">RTL Mode</label>
+                    </div>
+
+                    <a href="https://bit.ly/2QMLoUn" class="btn btn-danger btn-block mt-3" target="_blank"><i class="mdi mdi-download mr-1"></i> Download Now</a>
+                </div>
+            </div><div class="slimScrollBar" style="background: rgb(158, 165, 171); width: 5px; position: absolute; top: 0px; opacity: 0.4; display: block; border-radius: 7px; z-index: 99; right: 1px; height: 430.622px;"></div><div class="slimScrollRail" style="width: 5px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div>
+        </div> <!-- end slimscroll-menu-->
     </div>
 
-    <environment include="Development">
-        <script src="~/lib/jquery/dist/jquery.js"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
-        <script src="~/js/site.js" asp-append-version="true"></script>
-    </environment>
-    <environment exclude="Development">
-        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
-                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
-                asp-fallback-test="window.jQuery"
-                crossorigin="anonymous"
-                integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
-                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
-                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
-                crossorigin="anonymous"
-                integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd">
-        </script>
-        <script src="~/js/site.min.js" asp-append-version="true"></script>
-    </environment>
+    <!-- Vendor js -->
+    <script src="~/js/vendor.min.js"></script>
+
+    <script src="~/js/moment.min.js.transferir"></script>
+    <script src="~/js/jquery.scrollTo.min.js.transferir"></script>
+    <script src="~/js/sweetalert2.min.js.transferir"></script>
+
+    <!-- Chat app -->
+    <script src="~/js/jquery.chat.js.transferir"></script>
+
+    <!-- Todo app -->
+    <script src="~/js/jquery.todo.js.transferir"></script>
+
+    <!-- flot chart -->
+    <script src="~/js/jquery.flot.js.transferir"></script>
+    <script src="~/js/jquery.flot.time.js.transferir"></script>
+    <script src="~/js/jquery.flot.tooltip.min.js.transferir"></script>
+    <script src="~/js/jquery.flot.resize.js.transferir"></script>
+    <script src="~/js/jquery.flot.pie.js.transferir"></script>
+    <script src="~/js/jquery.flot.selection.js.transferir"></script>
+    <script src="~/js/jquery.flot.stack.js.transferir"></script>
+    <script src="~/js/jquery.flot.crosshair.js.transferir"></script>
+    <script src="~/js/site.js"></script>
+
+    <!-- Dashboard init JS -->
+    <script src="~/js/dashboard.init.js.transferir"></script><div class="flotTip" style="display: none; position: absolute;"></div>
+
+    <!-- App js -->
+    <script src="~/js/app.min.js"></script>
+
 
     @RenderSection("Scripts", required: false)
 </body>
+
 </html>

@@ -1,98 +1,288 @@
 ﻿@model GestaoDeClientes.Models.Cliente
 
 @{
-    ViewData["Title"] = "AtualizarCliente";
+    ViewData["Title"] = "NovoCliente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>AtualizarCliente</h2>
+<link href="~/css/switchery.min.css" rel="stylesheet">
+<script src="~/js/vendor.min.js"></script>
+<!--script src="~/js/switchery.min.js"></script-->
+<script src="~/js/form-advanced.init.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+<link href="~/css/bootstrap-tagsinput.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+<script src="~/js/bootstrap-tagsinput.min.js"></script>
 
-<h4>Cliente</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="AtualizarCliente">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="ClienteId" />
-            <div class="form-group">
-                <label asp-for="ClientePerfil" class="control-label"></label>
-                <input asp-for="ClientePerfil" class="form-control" />
-                <span asp-validation-for="ClientePerfil" class="text-danger"></span>
+<!-- ============================================================== -->
+<!-- Start Page Content here -->
+<!-- ============================================================== -->
+
+<div class="content">
+
+    <!-- Start Content-->
+    <div class="container-fluid">
+
+        <!-- start page title -->
+        <div class="row">
+            <div class="col-12">
+                <div class="page-title-box">
+                    <h4 class="page-title">Novo Cliente</h4>
+                    <div class="page-title-right">
+                        <ol class="breadcrumb p-0 m-0">
+                            <li class="breadcrumb-item"><a href="./">Home</a></li>
+                            <li class="breadcrumb-item"><a href="/Cliente">Cliente</a></li>
+                            <li class="breadcrumb-item active">Novo Cliente</li>
+                        </ol>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="ClienteNome" class="control-label"></label>
-                <input asp-for="ClienteNome" class="form-control" />
-                <span asp-validation-for="ClienteNome" class="text-danger"></span>
+        </div>
+        <!-- end page title -->
+        <!--Começo do form-->
+        <div class="row">
+            <div class="col">
+                <form asp-action="CriarCliente">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Dados do Cliente</h3>
+                        </div>
+                        <div class="card-body">
+
+                            <div class="form-row">
+                                <div class="form-group col-md-2">
+                                    <label asp-for="ClientePerfil" class="control-label">Perfil</label>
+                                    <select asp-for="ClientePerfil" class="form-control">
+                                        <option selected>Selecione...</option>
+                                        <option value="1">PJ Público</option>
+                                        <option value="2">PJ Privado</option>
+                                        <option value="3">Pessoa Física</option>
+                                        <option value="4">Outros</option>
+                                    </select>
+                                    <span asp-validation-for="ClientePerfil" class="text-danger"></span>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label asp-for="ClienteNome" class="control-label">Nome</label>
+                                    <input asp-for="ClienteNome" class="form-control" />
+                                    <span asp-validation-for="ClienteNome" class="text-danger"></span>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label asp-for="ClienteCpfCnpj" class="control-label">CPF/CNPJ</label>
+                                    <input asp-for="ClienteCpfCnpj" class="form-control" />
+                                    <span asp-validation-for="ClienteCpfCnpj" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-lg-5 col-md-5">
+                                    <label asp-for="ClienteEmail" class="control-label">E-mail</label>
+                                    <input asp-for="ClienteEmail" class="form-control" />
+                                    <span asp-validation-for="ClienteEmail" class="text-danger"></span>
+                                </div>
+                                <div class="form-group col">
+                                    <label asp-for="ClienteTelefone" class="control-label">Telefone</label>
+                                    <input asp-for="ClienteTelefone" class="form-control" data-mask="(999) 9999-9999" data-mask-reverser="false" />
+                                    <span asp-validation-for="ClienteTelefone" class="text-danger"></span>
+                                </div>
+                                <div class="form-group col">
+                                    <label asp-for="ClienteCelular" class="control-label">Celular</label>
+                                    <input asp-for="ClienteCelular" class="form-control" />
+                                    <span asp-validation-for="ClienteCelular" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-lg-6 col-md-6">
+                                    <label asp-for="ClienteEmpresa" class="control-label">Empresa</label>
+                                    <input asp-for="ClienteEmpresa" class="form-control" />
+                                    <span asp-validation-for="ClienteEmpresa" class="text-danger"></span>
+                                </div>
+                                <div class="form-group col">
+                                    <label asp-for="ClienteNomeFantasia" class="control-label">Nome Fantasia</label>
+                                    <input asp-for="ClienteNomeFantasia" class="form-control" />
+                                    <span asp-validation-for="ClienteNomeFantasia" class="text-danger"></span>
+                                </div>
+
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col">
+                                    <label asp-for="ClienteCep" class="control-label">CEP</label>
+                                    <input asp-for="ClienteCep" class="form-control" placeholder="12345 - 678" />
+                                    <span asp-validation-for="ClienteCep" class="text-danger"></span>
+                                </div>
+                                <div class="form-group col-7">
+                                    <label asp-for="ClienteRua" class="control-label">Logradouro</label>
+                                    <input asp-for="ClienteRua" class="form-control" />
+                                    <span asp-validation-for="ClienteRua" class="text-danger"></span>
+                                </div>
+                                <div class="form-group col">
+                                    <label asp-for="ClienteNumero" class="control-label">Número</label>
+                                    <input asp-for="ClienteNumero" class="form-control" />
+                                    <span asp-validation-for="ClienteNumero" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-5">
+                                    <label asp-for="ClienteEndComplem" class="control-label">Complemento</label>
+                                    <input asp-for="ClienteEndComplem" class="form-control" />
+                                    <span asp-validation-for="ClienteEndComplem" class="text-danger"></span>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label asp-for="ClienteCidade" class="control-label">Cidade</label>
+                                    <input asp-for="ClienteCidade" class="form-control" />
+                                    <span asp-validation-for="ClienteCidade" class="text-danger"></span>
+                                </div>
+                                <div class="form-group col">
+                                    <label asp-for="ClienteEstado" class="control-label">Estado</label>
+                                    <select asp-for="ClienteEstado" class="form-control">
+                                        <option selected>Selecione...</option>
+                                        <option value="AC">Acre</option>
+                                        <option value="AC">Alagoas</option>
+                                        <option value="AM">Amazonas</option>
+                                        <option value="AP">Amapá</option>
+                                        <option value="BA">Bahia</option>
+                                        <option value="CE">Ceará</option>
+                                        <option value="DF">Distrito Federal</option>
+                                        <option value="ES">Espírito Santo</option>
+                                        <option value="GO">Goiás</option>
+                                        <option value="MT">Mato Grosso</option>
+                                        <option value="MS">Mato Grosso do Sul</option>
+                                        <option value="MA">Maranhão</option>
+                                        <option value="MG">Minas Gerais</option>
+                                        <option value="PA">Pará</option>
+                                        <option value="PB">Paraíba</option>
+                                        <option value="PR">Paraná</option>
+                                        <option value="PE">Pernambuco</option>
+                                        <option value="PI">Piauí</option>
+                                        <option value="RJ">Rio de Janeiro</option>
+                                        <option value="RO">Rondônia</option>
+                                        <option value="RR">Roraima</option>
+                                        <option value="RN">Rio Grande do Norte</option>
+                                        <option value="RS">Rio Grande do Sul</option>
+                                        <option value="SC">Santa Catarina</option>
+                                        <option value="SE">Sergipe</option>
+                                        <option value="SP">São Paulo</option>
+                                        <option value="TO">Tocantins</option>
+
+                                    </select>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!-- card-body -->
+                    </div>
+                    <!-- card -->
+                    <!--card monitoramento-->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Dados do Monitoramento</h3>
+                        </div>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="form-group col-4">
+
+                                    <div class="form-check pl-0">
+
+                                        <input id="stackedCheck1" class="form-check-input" type="checkbox" data-toggle="toggle" data-onstyle="success" data-on="Monitor" checked>
+                                        <label for="stackedCheck1" class="form-check-label">Diários Oficiais</label>
+                                    </div>
+
+                                    <div class="form-check pl-0">
+                                        <input id="stackedCheck2" class="form-check-input" type="checkbox" data-toggle="toggle" data-on="Monitor" data-onstyle="success">
+                                        <label for="stackedCheck2" class="form-check-label">Rádio</label>
+                                    </div>
+                                    <div class="form-check pl-0">
+                                        <input id="stackedCheck2" class="form-check-input" type="checkbox" data-toggle="toggle" data-on="Monitor" data-onstyle="success">
+                                        <label for="stackedCheck2" class="form-check-label">TV</label>
+                                    </div>
+                                    <div class="form-check pl-0">
+                                        <input id="stackedCheck2" class="form-check-input" type="checkbox" data-toggle="toggle" data-on="Monitor" data-onstyle="success">
+                                        <label for="stackedCheck2" class="form-check-label">Jornais</label>
+                                    </div>
+
+                                </div>
+                                <div class="form-group col-4">
+
+                                    <div class="form-check pl-0">
+
+                                        <input id="stackedCheck1" class="form-check-input" type="checkbox" data-toggle="toggle" data-onstyle="success" data-on="Monitor" checked>
+                                        <label for="stackedCheck1" class="form-check-label">Diários Oficiais</label>
+                                    </div>
+
+                                    <div class="form-check pl-0">
+                                        <input id="stackedCheck2" class="form-check-input" type="checkbox" data-toggle="toggle" data-on="Monitor" data-onstyle="success">
+                                        <label for="stackedCheck2" class="form-check-label">Rádio</label>
+                                    </div>
+                                    <div class="form-check pl-0">
+                                        <input id="stackedCheck2" class="form-check-input" type="checkbox" data-toggle="toggle" data-on="Monitor" data-onstyle="success">
+                                        <label for="stackedCheck2" class="form-check-label">TV</label>
+                                    </div>
+                                    <div class="form-check pl-0">
+                                        <input id="stackedCheck2" class="form-check-input" type="checkbox" data-toggle="toggle" data-on="Monitor" data-onstyle="success">
+                                        <label for="stackedCheck2" class="form-check-label">Jornais</label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        Confirmar dados informados
+                                    </label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Aualizar</button>
+
+                        </div>
+                        <!-- card-body -->
+                    </div>
+                    <!-- card -->
+                    <!-- card inicio-->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Termos monitorados</h3>
+                        </div>
+                        <div class="card-body">
+
+                            <div class="form-group row mb-0">
+                                <label class="col-md-3 col-form-label">Palavras inclusivas</label>
+                                <div class="col-md-9">
+                                    <div class="bootstrap-tagsinput">   <span class="tag label label-info" style="">termo<span data-role="remove"></span></span> <span class="tag label label-info">nada<span data-role="remove"></span></span> <span class="tag label label-info">dd<span data-role="remove"></span></span> <input type="text" placeholder="add tags" size="8"></div>
+                                </div>
+                            </div>
+                            <div class="form-group row mb-0">
+                                <label class="col-md-3 col-form-label">Palavras Excludentes</label>
+                                <div class="col-md-9">
+                                    <div class="bootstrap-tagsinput"><span class="tag label label-info">admin<span data-role="remove"></span></span> <span class="tag label label-info">dashboard<span data-role="remove"></span></span> <span class="tag label label-info">xyz<span data-role="remove"></span></span> <input type="text" placeholder="add tags" size="8"></div><input type="text" value="admin,dashboard,xyz" data-role="tagsinput" placeholder="novo termo" style="display: none;">
+                                </div>
+                            </div>
+                            <!-- form-group -->
+
+                        </div>
+                        <!-- card-body -->
+                    </div>
+                    <!--card fim-->
+
+                </form>
             </div>
-            <div class="form-group">
-                <label asp-for="ClienteEmpresa" class="control-label"></label>
-                <input asp-for="ClienteEmpresa" class="form-control" />
-                <span asp-validation-for="ClienteEmpresa" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ClienteNomeFantasia" class="control-label"></label>
-                <input asp-for="ClienteNomeFantasia" class="form-control" />
-                <span asp-validation-for="ClienteNomeFantasia" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ClienteCpfCnpj" class="control-label"></label>
-                <input asp-for="ClienteCpfCnpj" class="form-control" />
-                <span asp-validation-for="ClienteCpfCnpj" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ClienteTelefone" class="control-label"></label>
-                <input asp-for="ClienteTelefone" class="form-control" />
-                <span asp-validation-for="ClienteTelefone" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ClienteCelular" class="control-label"></label>
-                <input asp-for="ClienteCelular" class="form-control" />
-                <span asp-validation-for="ClienteCelular" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ClienteEmail" class="control-label"></label>
-                <input asp-for="ClienteEmail" class="form-control" />
-                <span asp-validation-for="ClienteEmail" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ClienteRua" class="control-label"></label>
-                <input asp-for="ClienteRua" class="form-control" />
-                <span asp-validation-for="ClienteRua" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ClienteNumero" class="control-label"></label>
-                <input asp-for="ClienteNumero" class="form-control" />
-                <span asp-validation-for="ClienteNumero" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ClienteCep" class="control-label"></label>
-                <input asp-for="ClienteCep" class="form-control" />
-                <span asp-validation-for="ClienteCep" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ClienteCidade" class="control-label"></label>
-                <input asp-for="ClienteCidade" class="form-control" />
-                <span asp-validation-for="ClienteCidade" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ClienteEstado" class="control-label"></label>
-                <input asp-for="ClienteEstado" class="form-control" />
-                <span asp-validation-for="ClienteEstado" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ClienteEndComplem" class="control-label"></label>
-                <input asp-for="ClienteEndComplem" class="form-control" />
-                <span asp-validation-for="ClienteEndComplem" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-default" />
-            </div>
-        </form>
+            <!-- col -->
+        </div>
     </div>
 </div>
-
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Voltar para a lista</a>
 </div>
+<!-- End row -->
+<!--final do form-->
+<!-- end content -->
+<!-- ============================================================== -->
+<!-- End Page content -->
+<!-- ============================================================== -->
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

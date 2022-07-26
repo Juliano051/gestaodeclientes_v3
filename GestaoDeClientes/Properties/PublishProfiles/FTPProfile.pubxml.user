@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://win5128.site4now.net/.</_PublishTargetUrl>
+    <History>True|2022-07-26T19:11:06.7681590Z;False|2022-07-26T15:58:42.4785409-03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ConexaoBD">
+      <Value>Server=%28localdb%29\mssqllocaldb%3bDatabase=CadastroClientes%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <File Include="appsettings - Cópia.Development.json">
+      <publishTime>07/25/2022 21:32:15</publishTime>
+    </File>
+    <File Include="appsettings - Cópia.json">
+      <publishTime>07/26/2022 14:37:15</publishTime>
+    </File>
+    <File Include="appsettings.Development.json">
+      <publishTime>07/25/2022 21:32:15</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>07/26/2022 15:12:40</publishTime>
+    </File>
+    <File Include="appsettings.production.json">
+      <publishTime>07/26/2022 16:00:47</publishTime>
+    </File>
+    <File Include="dotnet-aspnet-codegenerator-design.dll">
+      <publishTime>07/22/2022 14:52:37</publishTime>
+    </File>
+    <File Include="GestaoDeClientes.deps.json">
+      <publishTime>07/26/2022 16:00:45</publishTime>
+    </File>
+    <File Include="GestaoDeClientes.dll">
+      <publishTime>07/26/2022 16:00:28</publishTime>
+    </File>
+    <File Include="GestaoDeClientes.pdb">
+      <publishTime>07/26/2022 16:00:28</publishTime>
+    </File>
+    <File Include="GestaoDeClientes.runtimeconfig.json">
+      <publishTime>07/26/2022 15:58:10</publishTime>
+    </File>
+    <File Include="GestaoDeClientes.Views.dll">
+      <publishTime>07/26/2022 16:00:29</publishTime>
+    </File>
+    <File Include="GestaoDeClientes.Views.pdb">
+      <publishTime>07/26/2022 16:00:29</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Connections.Abstractions.dll">
+      <publishTime>07/26/2018 15:17:04</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.dll">
+      <publishTime>12/06/2018 20:21:56</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Abstractions.dll">
+      <publishTime>09/20/2018 12:08:28</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.ApiExplorer.dll">
+      <publishTime>09/20/2018 12:08:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Core.dll">
+      <publishTime>09/20/2018 12:08:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Cors.dll">
+      <publishTime>09/20/2018 12:08:22</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.DataAnnotations.dll">
+      <publishTime>09/20/2018 12:08:30</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.dll">
+      <publishTime>09/20/2018 12:08:28</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Formatters.Json.dll">
+      <publishTime>09/20/2018 12:08:30</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Localization.dll">
+      <publishTime>09/20/2018 12:08:22</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Razor.dll">
+      <publishTime>09/20/2018 12:08:28</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.RazorPages.dll">
+      <publishTime>09/20/2018 12:08:24</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.TagHelpers.dll">
+      <publishTime>09/20/2018 12:08:22</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.ViewFeatures.dll">
+      <publishTime>09/20/2018 12:08:22</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Server.IISIntegration.dll">
+      <publishTime>12/06/2018 20:21:38</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Server.Kestrel.Core.dll">
+      <publishTime>07/26/2018 15:17:10</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Server.Kestrel.dll">
+      <publishTime>07/26/2018 15:17:00</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Server.Kestrel.Https.dll">
+      <publishTime>07/26/2018 15:17:06</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll">
+      <publishTime>07/26/2018 15:17:06</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll">
+      <publishTime>07/26/2018 15:17:08</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+      <publishTime>07/22/2022 14:52:22</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Workspaces.dll">
+      <publishTime>07/22/2022 14:52:33</publishTime>
+    </File>
+    <File Include="Microsoft.DotNet.PlatformAbstractions.dll">
+      <publishTime>07/22/2022 14:52:10</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>10/11/2019 19:28:10</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Design.dll">
+      <publishTime>10/11/2019 19:26:02</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>10/11/2019 19:26:00</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>10/11/2019 19:24:58</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>10/11/2019 19:28:58</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyModel.dll">
+      <publishTime>07/22/2022 14:52:32</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.BrowserLink.dll">
+      <publishTime>07/22/2022 14:52:36</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll">
+      <publishTime>07/22/2022 14:52:36</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Core.dll">
+      <publishTime>07/22/2022 14:52:37</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.dll">
+      <publishTime>07/22/2022 14:52:36</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll">
+      <publishTime>07/22/2022 14:52:37</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll">
+      <publishTime>07/22/2022 14:52:38</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll">
+      <publishTime>07/22/2022 14:52:38</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll">
+      <publishTime>07/22/2022 14:52:07</publishTime>
+    </File>
+    <File Include="NuGet.Frameworks.dll">
+      <publishTime>04/24/2018 18:27:10</publishTime>
+    </File>
+    <File Include="Remotion.Linq.dll">
+      <publishTime>07/22/2022 14:52:16</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll">
+      <publishTime>09/18/2018 16:38:10</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll">
+      <publishTime>09/18/2018 16:38:10</publishTime>
+    </File>
+    <File Include="System.Composition.AttributedModel.dll">
+      <publishTime>11/05/2016 01:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Convention.dll">
+      <publishTime>11/05/2016 01:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Hosting.dll">
+      <publishTime>11/05/2016 01:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Runtime.dll">
+      <publishTime>11/05/2016 01:55:44</publishTime>
+    </File>
+    <File Include="System.Composition.TypedParts.dll">
+      <publishTime>11/05/2016 01:55:46</publishTime>
+    </File>
+    <File Include="System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>09/18/2018 16:38:16</publishTime>
+    </File>
+    <File Include="System.Interactive.Async.dll">
+      <publishTime>07/22/2022 14:52:25</publishTime>
+    </File>
+    <File Include="System.IO.Pipelines.dll">
+      <publishTime>11/29/2018 12:39:14</publishTime>
+    </File>
+    <File Include="System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>09/18/2018 16:38:10</publishTime>
+    </File>
+    <File Include="System.Security.Principal.Windows.dll">
+      <publishTime>09/18/2018 16:38:10</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>07/26/2022 16:00:47</publishTime>
+    </File>
+    <File Include="wwwroot/css/app.min.css">
+      <publishTime>07/22/2022 21:57:35</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap-tagsinput.css">
+      <publishTime>07/26/2022 10:40:04</publishTime>
+    </File>
+    <File Include="wwwroot/css/icons.min.css">
+      <publishTime>07/24/2022 16:55:36</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.min.css">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/css/sweetalert2.min.css">
+      <publishTime>07/22/2022 21:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/css/switchery.min.css">
+      <publishTime>07/25/2022 09:25:45</publishTime>
+    </File>
+    <File Include="wwwroot/css/_icons.min.css">
+      <publishTime>07/22/2022 21:57:35</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>07/25/2022 21:32:15</publishTime>
+    </File>
+    <File Include="wwwroot/images/avatar-1.jpg">
+      <publishTime>07/22/2022 21:57:37</publishTime>
+    </File>
+    <File Include="wwwroot/images/avatar-2.jpg">
+      <publishTime>07/22/2022 21:57:39</publishTime>
+    </File>
+    <File Include="wwwroot/images/avatar-3.jpg">
+      <publishTime>07/22/2022 21:57:39</publishTime>
+    </File>
+    <File Include="wwwroot/images/avatar-4.jpg">
+      <publishTime>07/22/2022 21:57:40</publishTime>
+    </File>
+    <File Include="wwwroot/images/avatar-5.jpg">
+      <publishTime>07/22/2022 21:57:40</publishTime>
+    </File>
+    <File Include="wwwroot/images/avatar-6.jpg">
+      <publishTime>07/22/2022 21:57:41</publishTime>
+    </File>
+    <File Include="wwwroot/images/avatar-8.jpg">
+      <publishTime>07/22/2022 21:57:41</publishTime>
+    </File>
+    <File Include="wwwroot/images/avatar-9.jpg">
+      <publishTime>07/22/2022 21:57:41</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner1.svg">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner2.svg">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner3.svg">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/dark.png">
+      <publishTime>07/22/2022 21:57:42</publishTime>
+    </File>
+    <File Include="wwwroot/images/germany.jpg">
+      <publishTime>07/22/2022 21:57:36</publishTime>
+    </File>
+    <File Include="wwwroot/images/italy.jpg">
+      <publishTime>07/22/2022 21:57:36</publishTime>
+    </File>
+    <File Include="wwwroot/images/light.png">
+      <publishTime>07/22/2022 21:57:42</publishTime>
+    </File>
+    <File Include="wwwroot/images/logo-dark.png">
+      <publishTime>07/22/2022 21:57:38</publishTime>
+    </File>
+    <File Include="wwwroot/images/logo-light.png">
+      <publishTime>07/22/2022 21:57:39</publishTime>
+    </File>
+    <File Include="wwwroot/images/logo-sm.png">
+      <publishTime>07/22/2022 21:57:38</publishTime>
+    </File>
+    <File Include="wwwroot/images/nxt_logo.jpg">
+      <publishTime>07/26/2022 10:03:16</publishTime>
+    </File>
+    <File Include="wwwroot/images/rtl.png">
+      <publishTime>07/22/2022 21:57:43</publishTime>
+    </File>
+    <File Include="wwwroot/images/russia.jpg">
+      <publishTime>07/22/2022 21:57:37</publishTime>
+    </File>
+    <File Include="wwwroot/images/spain.jpg">
+      <publishTime>07/22/2022 21:57:37</publishTime>
+    </File>
+    <File Include="wwwroot/images/us.jpg">
+      <publishTime>07/22/2022 21:57:35</publishTime>
+    </File>
+    <File Include="wwwroot/js/app.min.js">
+      <publishTime>07/22/2022 21:57:48</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap-tagsinput.min.js">
+      <publishTime>07/26/2022 10:53:01</publishTime>
+    </File>
+    <File Include="wwwroot/js/dashboard.init.js">
+      <publishTime>07/22/2022 21:57:47</publishTime>
+    </File>
+    <File Include="wwwroot/js/form-advanced.init.js">
+      <publishTime>07/25/2022 09:25:58</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.chat.js">
+      <publishTime>07/22/2022 21:57:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.flot.crosshair.js">
+      <publishTime>07/22/2022 21:57:47</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.flot.js">
+      <publishTime>07/22/2022 21:57:45</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.flot.pie.js">
+      <publishTime>07/22/2022 21:57:46</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.flot.resize.js">
+      <publishTime>07/22/2022 21:57:46</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.flot.selection.js">
+      <publishTime>07/22/2022 21:57:46</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.flot.stack.js">
+      <publishTime>07/22/2022 21:57:47</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.flot.time.js">
+      <publishTime>07/22/2022 21:57:45</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.flot.tooltip.min.js">
+      <publishTime>07/22/2022 21:57:45</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.scrollTo.min.js">
+      <publishTime>07/22/2022 21:57:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.todo.js">
+      <publishTime>07/22/2022 21:57:45</publishTime>
+    </File>
+    <File Include="wwwroot/js/moment.min.js">
+      <publishTime>07/22/2022 21:57:43</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.js">
+      <publishTime>07/25/2022 01:07:50</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.min.js">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/js/sweetalert2.min.js">
+      <publishTime>07/22/2022 21:57:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/switchery.min.js">
+      <publishTime>07/25/2022 09:25:55</publishTime>
+    </File>
+    <File Include="wwwroot/js/vendor.min.js">
+      <publishTime>07/22/2022 21:57:43</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/.bower.json">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>07/22/2022 21:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/npm.js">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/index/bootstrap.min.css">
+      <publishTime>07/26/2022 12:46:37</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/LICENSE">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/.bower.json">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/.bower.json">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/.bower.json">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.js">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/LICENSE.txt">
+      <publishTime>07/22/2022 15:23:19</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

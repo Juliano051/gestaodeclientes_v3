@@ -6,15 +6,10 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA98BAIhZtLU6yLFhmJoDJUQAAAAACAAAAAAADZgAAwAAAABAAAABdR57Q3saug1bOz5eFOAKLAAAAAASAAACgAAAAEAAAAFPOA9DRCVwMTygM07C55b0YAAAAaOhvwSo3z1Doq6Sqc78b7ya2J7gXQfDoFAAAAH70r445VvXs12jOwr9c8OPfvFb3</EncryptedPassword>
     <_PublishTargetUrl>ftp://win5128.site4now.net/.</_PublishTargetUrl>
     <History>True|2022-07-26T19:11:06.7681590Z;False|2022-07-26T15:58:42.4785409-03:00;</History>
   </PropertyGroup>
-  <ItemGroup>
-    <DestinationConnectionStrings Include="ConexaoBD">
-      <Value>Server=%28localdb%29\mssqllocaldb%3bDatabase=CadastroClientes%3b</Value>
-    </DestinationConnectionStrings>
-  </ItemGroup>
   <ItemGroup>
     <File Include="appsettings - Cópia.Development.json">
       <publishTime>07/25/2022 21:32:15</publishTime>
@@ -469,5 +464,10 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
     <File Include="wwwroot/lib/jquery/LICENSE.txt">
       <publishTime>07/22/2022 15:23:19</publishTime>
     </File>
+  </ItemGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ConexaoBD">
+      <Value>Server=%28localdb%29\mssqllocaldb%3bDatabase=CadastroClientes%3b</Value>
+    </DestinationConnectionStrings>
   </ItemGroup>
 </Project>

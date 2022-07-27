@@ -45,3 +45,4 @@ C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\bin\
 C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\bin\Debug\netcoreapp2.1\appsettings - Cópia.json
 C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\AtualizarCliente_ORIGINAL.cshtml.g.cs
 C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Index - Cópia.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\ExcluirCliente - Cópia.cshtml.g.cs

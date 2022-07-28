@@ -12,6 +12,9 @@
     <div class="container-fluid">
 
         <div class="tab-content profile-tab-content">
+            <p>
+                <a asp-action="CriarCliente" class="btn btn-block btn-lighten-success">Novo Cliente</a>
+            </p>
             <!-- Personal-Information -->
             <div class="card card-default card-fill">
                 <div class="card-header">
@@ -24,48 +27,48 @@
                             <thead>
                                 <tr>
                                     <!--th>
-                                        @Html.DisplayNameFor(model => model.ClientePerfil)
-                                    </th-->
+                                @Html.DisplayNameFor(model => model.ClientePerfil)
+                            </th-->
                                     <th>
 
-                                        @Html.DisplayNameFor(model => model.ClienteNome)
+                                        Nome
                                     </th>
                                     <th>
-                                        @Html.DisplayNameFor(model => model.ClienteEmpresa)
+                                        Empresa
                                     </th>
                                     <!--th>
-                                        @Html.DisplayNameFor(model => model.ClienteNomeFantasia)
-                                    </th-->
+                                @Html.DisplayNameFor(model => model.ClienteNomeFantasia)
+                            </th-->
                                     <th>
-                                        @Html.DisplayNameFor(model => model.ClienteCpfCnpj)
+                                        CPF/CNPJ
                                     </th>
                                     <!--th>
-                                        @Html.DisplayNameFor(model => model.ClienteTelefone)
-                                    </th-->
+                                @Html.DisplayNameFor(model => model.ClienteTelefone)
+                            </th-->
                                     <th>
-                                        @Html.DisplayNameFor(model => model.ClienteCelular)
+                                        Celular
                                     </th>
                                     <th>
-                                        @Html.DisplayNameFor(model => model.ClienteEmail)
+                                        Email
                                     </th>
                                     <!--th>
-                                        @Html.DisplayNameFor(model => model.ClienteRua)
-                                    </th>
-                                    <th>
-                                        @Html.DisplayNameFor(model => model.ClienteNumero)
-                                    </th>
-                                    <th>
-                                        @Html.DisplayNameFor(model => model.ClienteCep)
-                                    </th>
-                                    <th>
-                                        @Html.DisplayNameFor(model => model.ClienteCidade)
-                                    </th>
-                                    <th>
-                                        @Html.DisplayNameFor(model => model.ClienteEstado)
-                                    </th>
-                                    <th>
-                                        @Html.DisplayNameFor(model => model.ClienteEndComplem)
-                                    </th-->
+                                @Html.DisplayNameFor(model => model.ClienteRua)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ClienteNumero)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ClienteCep)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ClienteCidade)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ClienteEstado)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ClienteEndComplem)
+                            </th-->
                                     <th></th>
                                 </tr>
                             </thead>
@@ -74,8 +77,8 @@
         {
                                 <tr>
                                     <!--td>
-                                        @Html.DisplayFor(modelItem => item.ClientePerfil)
-                                    </td-->
+                                @Html.DisplayFor(modelItem => item.ClientePerfil)
+                            </td-->
                                     <td>
 
                                         @Html.DisplayFor(modelItem => item.ClienteNome)
@@ -84,14 +87,14 @@
                                         @Html.DisplayFor(modelItem => item.ClienteEmpresa)
                                     </td>
                                     <!--td>
-                                        @Html.DisplayFor(modelItem => item.ClienteNomeFantasia)
-                                    </td-->
+                                @Html.DisplayFor(modelItem => item.ClienteNomeFantasia)
+                            </td-->
                                     <td>
                                         @Html.DisplayFor(modelItem => item.ClienteCpfCnpj)
                                     </td>
                                     <!--td>
-                                        @Html.DisplayFor(modelItem => item.ClienteTelefone)
-                                    </td-->
+                                @Html.DisplayFor(modelItem => item.ClienteTelefone)
+                            </td-->
                                     <td>
                                         @Html.DisplayFor(modelItem => item.ClienteCelular)
                                     </td>
@@ -99,23 +102,23 @@
                                         @Html.DisplayFor(modelItem => item.ClienteEmail)
                                     </td>
                                     <!--td>
-                                        @Html.DisplayFor(modelItem => item.ClienteRua)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.ClienteNumero)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.ClienteCep)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.ClienteCidade)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.ClienteEstado)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.ClienteEndComplem)
-                                    </td-->
+                                @Html.DisplayFor(modelItem => item.ClienteRua)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ClienteNumero)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ClienteCep)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ClienteCidade)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ClienteEstado)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ClienteEndComplem)
+                            </td-->
                                     <td>
                                         <a asp-action="AtualizarCliente" asp-route-id="@item.ClienteId">Editar</a> |
                                         <a asp-action="ExcluirCliente" asp-route-id="@item.ClienteId">Excluir</a>

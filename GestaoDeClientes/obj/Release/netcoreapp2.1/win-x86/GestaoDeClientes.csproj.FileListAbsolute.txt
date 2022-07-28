@@ -1,0 +1,51 @@
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\bin\Release\netcoreapp2.1\win-x86\appsettings - Cópia.Development.json
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\bin\Release\netcoreapp2.1\win-x86\appsettings - Cópia.json
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\bin\Release\netcoreapp2.1\win-x86\appsettings.Development.json
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\bin\Release\netcoreapp2.1\win-x86\appsettings.json
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\bin\Release\netcoreapp2.1\win-x86\GestaoDeClientes.exe
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\bin\Release\netcoreapp2.1\win-x86\GestaoDeClientes.deps.json
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\bin\Release\netcoreapp2.1\win-x86\GestaoDeClientes.runtimeconfig.json
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\bin\Release\netcoreapp2.1\win-x86\GestaoDeClientes.runtimeconfig.dev.json
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\bin\Release\netcoreapp2.1\win-x86\GestaoDeClientes.dll
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\bin\Release\netcoreapp2.1\win-x86\GestaoDeClientes.pdb
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\bin\Release\netcoreapp2.1\win-x86\GestaoDeClientes.Views.dll
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\bin\Release\netcoreapp2.1\win-x86\GestaoDeClientes.Views.pdb
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\GestaoDeClientes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\GestaoDeClientes.AssemblyInfoInputs.cache
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\GestaoDeClientes.AssemblyInfo.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\GestaoDeClientes.csproj.CoreCompileInputs.cache
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\GestaoDeClientes.RazorAssemblyInfo.cache
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\GestaoDeClientes.RazorAssemblyInfo.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\GestaoDeClientes.TagHelpers.input.cache
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\GestaoDeClientes.TagHelpers.output.cache
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\GestaoDeClientes.RazorCoreGenerate.cache
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Clientes\AtualizarCliente.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Clientes\AtualizarCliente_ORIGINAL.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Clientes\CriarCliente.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Clientes\CriarCliente__ORIGINAL.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Clientes\ExcluirCliente - Cópia.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Clientes\ExcluirCliente.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Clientes\Index - Cópia.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Clientes\Index.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Shared\_LayoutClean.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Shared\_LayoutOriginal.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\GestaoDeClientes.RazorTargetAssemblyInfo.cache
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\GestaoDeClientes.RazorTargetAssemblyInfo.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\GestaoDeClientes.Views.pdb
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\GestaoDeClientes.dll
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\GestaoDeClientes.pdb
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\GestaoDeClientes.genruntimeconfig.cache
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\GestaoDeClientes.csproj.CopyComplete
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\bin\Release\netcoreapp2.1\win-x86\hostpolicy.dll
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\bin\Release\netcoreapp2.1\win-x86\hostfxr.dll
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\GestaoDeClientes.csproj.AssemblyReference.cache

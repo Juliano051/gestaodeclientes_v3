@@ -27,7 +27,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="page-title-box">
-                    <h4 class="page-title">Novo Cliente</h4>
+                    <!--h4 class="page-title">Novo Cliente</h4-->
                     <div class="page-title-right">
                         <ol class="breadcrumb p-0 m-0">
                             <li class="breadcrumb-item"><a href="./">Home</a></li>
@@ -43,7 +43,7 @@
         <!--Começo do form-->
         <div class="row">
             <div class="col">
-                <form asp-action="CriarCliente">
+                <form asp-action="AtualizarCliente">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="card">
                         <div class="card-header">
@@ -63,6 +63,7 @@
                                     </select>
                                     <span asp-validation-for="ClientePerfil" class="text-danger"></span>
                                 </div>
+                                
                                 <div class="form-group col-md-6">
                                     <label asp-for="ClienteNome" class="control-label">Nome</label>
                                     <input asp-for="ClienteNome" class="form-control" />
@@ -204,28 +205,7 @@
                                     </div>
 
                                 </div>
-                                <div class="form-group col-4">
 
-                                    <div class="form-check pl-0">
-
-                                        <input id="stackedCheck1" class="form-check-input" type="checkbox" data-toggle="toggle" data-onstyle="success" data-on="Monitor" checked>
-                                        <label for="stackedCheck1" class="form-check-label">Diários Oficiais</label>
-                                    </div>
-
-                                    <div class="form-check pl-0">
-                                        <input id="stackedCheck2" class="form-check-input" type="checkbox" data-toggle="toggle" data-on="Monitor" data-onstyle="success">
-                                        <label for="stackedCheck2" class="form-check-label">Rádio</label>
-                                    </div>
-                                    <div class="form-check pl-0">
-                                        <input id="stackedCheck2" class="form-check-input" type="checkbox" data-toggle="toggle" data-on="Monitor" data-onstyle="success">
-                                        <label for="stackedCheck2" class="form-check-label">TV</label>
-                                    </div>
-                                    <div class="form-check pl-0">
-                                        <input id="stackedCheck2" class="form-check-input" type="checkbox" data-toggle="toggle" data-on="Monitor" data-onstyle="success">
-                                        <label for="stackedCheck2" class="form-check-label">Jornais</label>
-                                    </div>
-
-                                </div>
                             </div>
 
                             <div class="form-group">
@@ -236,7 +216,7 @@
                                     </label>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary">Aualizar</button>
+
 
                         </div>
                         <!-- card-body -->
@@ -267,16 +247,20 @@
                         <!-- card-body -->
                     </div>
                     <!--card fim-->
+                    <div class="row">
+                        <div class="col"><button asp-action="CriarCliente" type="submit" class="btn btn-block btn-lighten-success">Atualizar</button></div>
+                        <div class="col"><a asp-action="Index" class="btn btn-block btn-lighten-warning">Voltar</a></div>
+                        
+                    </div>
 
                 </form>
+              
             </div>
             <!-- col -->
         </div>
     </div>
 </div>
-<div>
-    <a asp-action="Index">Voltar para a lista</a>
-</div>
+
 <!-- End row -->
 <!--final do form-->
 <!-- end content -->

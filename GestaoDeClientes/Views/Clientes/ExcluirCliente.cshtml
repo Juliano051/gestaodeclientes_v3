@@ -11,7 +11,7 @@
 
 <div id="wrapper">
 
-    
+
     <div class="col">
         <div class="container-fluid">
             <h3>Deseja concluir a exclusão?</h3>
@@ -48,9 +48,19 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <a asp-action="Index" class="button">Voltar para a lista</a>
+
+            <div class="row">
+                <div class="col">
+                    <form asp-action="ExcluirCliente">
+                        <input type="hidden" asp-for="ClienteId" />
+                        <input type="submit" value="Excluir" class="btn btn-block btn-lighten-danger" /> 
+                    </form>
+                </div>
+                <div class="col">
+                    <a class="btn btn-block btn-lighten-primary" asp-action="Index">Voltar para Catálogo</a>
+                </div>
             </div>
+
 
 
         </div>

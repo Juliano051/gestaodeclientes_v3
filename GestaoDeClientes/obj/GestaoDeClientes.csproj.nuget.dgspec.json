@@ -99,10 +99,6 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[2.1.10, )"
-            },
-            "MySql.Data": {
-              "target": "Package",
-              "version": "[8.0.30, )"
             }
           },
           "imports": [

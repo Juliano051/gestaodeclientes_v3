@@ -120,8 +120,8 @@
                                 @Html.DisplayFor(modelItem => item.ClienteEndComplem)
                             </td-->
                                     <td>
-                                        <a asp-action="AtualizarCliente" asp-route-id="@item.ClienteId">Editar</a> |
-                                        <a asp-action="ExcluirCliente" asp-route-id="@item.ClienteId">Excluir</a>
+                                        <a style="color:burlywood" asp-action="AtualizarCliente" asp-route-id="@item.ClienteId"><i class="material-icons">edit</i></a>
+                                        <a style="color:lightcoral" asp-action="ExcluirCliente" asp-route-id="@item.ClienteId" alt="Excluir"><i class="material-icons">clear</i></a>
                                     </td>
                                 </tr>
         }

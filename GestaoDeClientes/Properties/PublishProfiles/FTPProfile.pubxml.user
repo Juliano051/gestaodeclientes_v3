@@ -8,7 +8,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA98BAIhZtLU6yLFhmJoDJUQAAAAACAAAAAAADZgAAwAAAABAAAABdR57Q3saug1bOz5eFOAKLAAAAAASAAACgAAAAEAAAAFPOA9DRCVwMTygM07C55b0YAAAAaOhvwSo3z1Doq6Sqc78b7ya2J7gXQfDoFAAAAH70r445VvXs12jOwr9c8OPfvFb3</EncryptedPassword>
     <_PublishTargetUrl>ftp://win5128.site4now.net/site1</_PublishTargetUrl>
-    <History>True|2022-07-27T20:21:28.2178661Z;True|2022-07-27T17:00:07.1956385-03:00;True|2022-07-27T15:43:11.9189909-03:00;False|2022-07-27T15:12:17.2891572-03:00;False|2022-07-27T13:44:42.9466283-03:00;True|2022-07-27T13:03:16.7121094-03:00;False|2022-07-27T12:03:35.3488181-03:00;True|2022-07-27T11:38:09.0602537-03:00;True|2022-07-27T10:15:07.0203932-03:00;False|2022-07-27T09:19:27.0119886-03:00;False|2022-07-27T09:07:40.1333866-03:00;True|2022-07-26T16:11:06.7681590-03:00;False|2022-07-26T15:58:42.4785409-03:00;</History>
+    <History>False|2022-07-29T12:38:48.7544922Z;False|2022-07-29T09:08:33.7821368-03:00;False|2022-07-28T18:14:21.7516376-03:00;False|2022-07-28T18:06:45.0495409-03:00;False|2022-07-28T18:03:50.3134499-03:00;True|2022-07-28T13:28:52.1864651-03:00;True|2022-07-28T08:52:28.7804147-03:00;False|2022-07-28T08:35:35.5352771-03:00;True|2022-07-27T17:21:28.2178661-03:00;True|2022-07-27T17:00:07.1956385-03:00;True|2022-07-27T15:43:11.9189909-03:00;False|2022-07-27T15:12:17.2891572-03:00;False|2022-07-27T13:44:42.9466283-03:00;True|2022-07-27T13:03:16.7121094-03:00;False|2022-07-27T12:03:35.3488181-03:00;True|2022-07-27T11:38:09.0602537-03:00;True|2022-07-27T10:15:07.0203932-03:00;False|2022-07-27T09:19:27.0119886-03:00;False|2022-07-27T09:07:40.1333866-03:00;True|2022-07-26T16:11:06.7681590-03:00;False|2022-07-26T15:58:42.4785409-03:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="api-ms-win-core-console-l1-1-0.dll">
@@ -147,10 +147,10 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>07/27/2022 12:33:54</publishTime>
     </File>
     <File Include="appsettings.production.json">
-      <publishTime>07/27/2022 17:06:30</publishTime>
+      <publishTime>07/29/2022 09:13:20</publishTime>
     </File>
     <File Include="BouncyCastle.Crypto.dll">
-      <publishTime>10/19/2021 08:53:34</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="clrcompression.dll">
       <publishTime>11/08/2021 20:05:32</publishTime>
@@ -171,28 +171,28 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>07/22/2022 14:52:37</publishTime>
     </File>
     <File Include="GestaoDeClientes.deps.json">
-      <publishTime>07/27/2022 17:06:28</publishTime>
+      <publishTime>07/29/2022 09:13:17</publishTime>
     </File>
     <File Include="GestaoDeClientes.dll">
-      <publishTime>07/27/2022 17:06:24</publishTime>
+      <publishTime>07/29/2022 09:13:11</publishTime>
     </File>
     <File Include="GestaoDeClientes.exe">
-      <publishTime>07/27/2022 17:06:24</publishTime>
+      <publishTime>07/29/2022 09:13:11</publishTime>
     </File>
     <File Include="GestaoDeClientes.pdb">
-      <publishTime>07/27/2022 17:06:24</publishTime>
+      <publishTime>07/29/2022 09:13:11</publishTime>
     </File>
     <File Include="GestaoDeClientes.runtimeconfig.json">
       <publishTime>07/27/2022 15:13:57</publishTime>
     </File>
     <File Include="GestaoDeClientes.Views.dll">
-      <publishTime>07/27/2022 17:06:27</publishTime>
+      <publishTime>07/29/2022 09:13:16</publishTime>
     </File>
     <File Include="GestaoDeClientes.Views.pdb">
-      <publishTime>07/27/2022 17:06:27</publishTime>
+      <publishTime>07/29/2022 09:13:16</publishTime>
     </File>
     <File Include="Google.Protobuf.dll">
-      <publishTime>01/28/2022 05:49:20</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="hostfxr.dll">
       <publishTime>11/08/2021 20:05:56</publishTime>
@@ -738,25 +738,25 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>04/24/2018 18:27:10</publishTime>
     </File>
     <File Include="Remotion.Linq.dll">
-      <publishTime>07/22/2022 14:52:16</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll">
-      <publishTime>09/18/2018 16:38:10</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll">
-      <publishTime>11/15/2019 05:56:02</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll">
-      <publishTime>11/15/2019 05:54:14</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll">
-      <publishTime>09/18/2018 16:38:10</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll">
-      <publishTime>11/15/2019 05:56:10</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
-      <publishTime>07/19/2017 07:01:34</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="sni.dll">
       <publishTime>12/07/2017 08:24:22</publishTime>
@@ -825,7 +825,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>05/11/2016 01:55:46</publishTime>
     </File>
     <File Include="System.Configuration.ConfigurationManager.dll">
-      <publishTime>11/20/2017 15:09:04</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.Configuration.dll">
       <publishTime>11/08/2021 20:05:32</publishTime>
@@ -843,7 +843,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>11/08/2021 20:05:32</publishTime>
     </File>
     <File Include="System.Data.SqlClient.dll">
-      <publishTime>01/16/2020 10:35:18</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.Diagnostics.Contracts.dll">
       <publishTime>11/08/2021 20:05:32</publishTime>
@@ -900,7 +900,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>07/22/2022 14:52:24</publishTime>
     </File>
     <File Include="System.Interactive.Async.dll">
-      <publishTime>07/22/2022 14:52:25</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.IO.Compression.Brotli.dll">
       <publishTime>11/08/2021 20:05:32</publishTime>
@@ -939,7 +939,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>11/08/2021 20:05:32</publishTime>
     </File>
     <File Include="System.IO.Pipelines.dll">
-      <publishTime>09/21/2020 20:15:04</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.IO.Pipes.AccessControl.dll">
       <publishTime>11/08/2021 20:05:32</publishTime>
@@ -1083,7 +1083,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>11/08/2021 20:05:32</publishTime>
     </File>
     <File Include="System.Runtime.CompilerServices.Unsafe.dll">
-      <publishTime>02/19/2020 07:05:16</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.Runtime.CompilerServices.VisualC.dll">
       <publishTime>11/08/2021 20:05:32</publishTime>
@@ -1155,7 +1155,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>11/08/2021 20:05:32</publishTime>
     </File>
     <File Include="System.Security.Cryptography.ProtectedData.dll">
-      <publishTime>07/19/2017 07:01:34</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.Security.Cryptography.X509Certificates.dll">
       <publishTime>11/08/2021 20:05:32</publishTime>
@@ -1185,7 +1185,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>11/08/2021 20:05:32</publishTime>
     </File>
     <File Include="System.Text.Encoding.CodePages.dll">
-      <publishTime>11/29/2018 12:39:20</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.Text.Encoding.dll">
       <publishTime>11/08/2021 20:05:32</publishTime>
@@ -1281,13 +1281,13 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>11/08/2021 20:05:34</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>07/27/2022 17:06:30</publishTime>
+      <publishTime>07/29/2022 09:13:20</publishTime>
     </File>
     <File Include="WindowsBase.dll">
       <publishTime>11/08/2021 20:05:32</publishTime>
     </File>
     <File Include="wwwroot/css/app.min.css">
-      <publishTime>07/22/2022 21:57:35</publishTime>
+      <publishTime>07/28/2022 12:50:06</publishTime>
     </File>
     <File Include="wwwroot/css/bootstrap-tagsinput.css">
       <publishTime>07/26/2022 10:40:04</publishTime>

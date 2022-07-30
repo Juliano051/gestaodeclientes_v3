@@ -175,7 +175,7 @@
                         <!-- card-body -->
                     </div>
                     <!-- card -->
-                    <!--card monitoramento-->
+                    <!--card amento-->
                     <div class="card">
                         <div class="card-header">
                             <h3 class="card-title">Dados do Monitoramento</h3>
@@ -185,22 +185,22 @@
                             <div class="row">
                                 <div class="form-group col-4">
 
-                                    <div class="form-check pl-0">
+                                    <div class="form-check pl-0 my-1">
 
-                                        <input id="stackedCheck1" class="form-check-input" type="checkbox" data-toggle="toggle" data-onstyle="success" data-on="Monitor" checked>
+                                        <input id="stackedCheck1" class="form-check-input" type="checkbox" data-toggle="toggle" data-onstyle="success" data-on="ON" checked>
                                         <label for="stackedCheck1" class="form-check-label">Diários Oficiais</label>
                                     </div>
 
-                                    <div class="form-check pl-0">
-                                        <input id="stackedCheck2" class="form-check-input" type="checkbox" data-toggle="toggle" data-on="Monitor" data-onstyle="success">
+                                    <div class="form-check pl-0 my-1">
+                                        <input id="stackedCheck2" class="form-check-input" type="checkbox" data-toggle="toggle" data-on="ON" data-onstyle="success">
                                         <label for="stackedCheck2" class="form-check-label">Rádio</label>
                                     </div>
-                                    <div class="form-check pl-0">
-                                        <input id="stackedCheck2" class="form-check-input" type="checkbox" data-toggle="toggle" data-on="Monitor" data-onstyle="success">
+                                    <div class="form-check pl-0 my-1">
+                                        <input id="stackedCheck2" class="form-check-input" type="checkbox" data-toggle="toggle" data-on="ON" data-onstyle="success">
                                         <label for="stackedCheck2" class="form-check-label">TV</label>
                                     </div>
-                                    <div class="form-check pl-0">
-                                        <input id="stackedCheck2" class="form-check-input" type="checkbox" data-toggle="toggle" data-on="Monitor" data-onstyle="success">
+                                    <div class="form-check pl-0 my-1">
+                                        <input id="stackedCheck2" class="form-check-input" type="checkbox" data-toggle="toggle" data-on="ON" data-onstyle="success">
                                         <label for="stackedCheck2" class="form-check-label">Jornais</label>
                                     </div>
 
@@ -230,16 +230,16 @@
                         <div class="card-body">
 
                             <label class="col-md-3 col-form-label">Termos Inclusivos</label>
-                            
-                                <div class="col-9">
-                                    <input type="text"  data-role="tagsinput" placeholder="novo termo...">
-                                </div>
-                           
+
+                            <div class="col-9">
+                                <input type="text" data-role="tagsinput" placeholder="novo termo...">
+                            </div>
+
                             <label class="col-md-3 col-form-label">Termos Excludentes</label>
-                           
-                                <div class="col-9">
-                                    <input type="text"  data-role="tagsinput" placeholder="novo termo...">
-                                </div>
+
+                            <div class="col-9">
+                                <input type="text" data-role="tagsinput" placeholder="novo termo...">
+                            </div>
 
                             <!-- form-group -->
 
@@ -248,11 +248,22 @@
 
                     </div>
                     <!--card fim-->
-                    <div class="row">
-                        <div class="col"><button asp-action="AtualizarCliente" type="submit" class="btn btn-block btn-lighten-success">Atualizar</button></div>
-                        <div class="col"><a asp-action="Index" class="btn btn-block btn-lighten-warning">Voltar</a></div>
-                        
-
+                 
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row p-1">
+                                <div class="form-group col my-1">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                                        <label class="form-check-label" for="gridCheck">
+                                            Confirmar dados informados
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col"><button asp-action="AtualizarCliente" type="submit" class="btn btn-block btn-lighten-success">Salvar</button></div>
+                                <div class="col"><a asp-action="Index" class="btn btn-block btn-lighten-warning">Voltar</a></div>
+                            </div>
+                        </div>
                     </div>
 
                 </form>

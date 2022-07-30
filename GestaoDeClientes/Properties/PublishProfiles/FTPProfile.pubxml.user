@@ -8,7 +8,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA98BAIhZtLU6yLFhmJoDJUQAAAAACAAAAAAADZgAAwAAAABAAAABdR57Q3saug1bOz5eFOAKLAAAAAASAAACgAAAAEAAAAFPOA9DRCVwMTygM07C55b0YAAAAaOhvwSo3z1Doq6Sqc78b7ya2J7gXQfDoFAAAAH70r445VvXs12jOwr9c8OPfvFb3</EncryptedPassword>
     <_PublishTargetUrl>ftp://win5128.site4now.net/site1</_PublishTargetUrl>
-    <History>False|2022-07-29T12:38:48.7544922Z;False|2022-07-29T09:08:33.7821368-03:00;False|2022-07-28T18:14:21.7516376-03:00;False|2022-07-28T18:06:45.0495409-03:00;False|2022-07-28T18:03:50.3134499-03:00;True|2022-07-28T13:28:52.1864651-03:00;True|2022-07-28T08:52:28.7804147-03:00;False|2022-07-28T08:35:35.5352771-03:00;True|2022-07-27T17:21:28.2178661-03:00;True|2022-07-27T17:00:07.1956385-03:00;True|2022-07-27T15:43:11.9189909-03:00;False|2022-07-27T15:12:17.2891572-03:00;False|2022-07-27T13:44:42.9466283-03:00;True|2022-07-27T13:03:16.7121094-03:00;False|2022-07-27T12:03:35.3488181-03:00;True|2022-07-27T11:38:09.0602537-03:00;True|2022-07-27T10:15:07.0203932-03:00;False|2022-07-27T09:19:27.0119886-03:00;False|2022-07-27T09:07:40.1333866-03:00;True|2022-07-26T16:11:06.7681590-03:00;False|2022-07-26T15:58:42.4785409-03:00;</History>
+    <History>True|2022-07-30T00:49:55.4478215Z;False|2022-07-29T21:01:35.1579614-03:00;True|2022-07-29T20:11:14.1977183-03:00;False|2022-07-29T19:26:36.6702232-03:00;False|2022-07-29T19:25:02.9366664-03:00;False|2022-07-29T18:53:37.0776523-03:00;False|2022-07-29T18:34:12.1844284-03:00;False|2022-07-29T18:09:21.3830074-03:00;True|2022-07-29T16:41:56.5874332-03:00;False|2022-07-29T09:38:48.7544922-03:00;False|2022-07-29T09:08:33.7821368-03:00;False|2022-07-28T18:14:21.7516376-03:00;False|2022-07-28T18:06:45.0495409-03:00;False|2022-07-28T18:03:50.3134499-03:00;True|2022-07-28T13:28:52.1864651-03:00;True|2022-07-28T08:52:28.7804147-03:00;False|2022-07-28T08:35:35.5352771-03:00;True|2022-07-27T17:21:28.2178661-03:00;True|2022-07-27T17:00:07.1956385-03:00;True|2022-07-27T15:43:11.9189909-03:00;False|2022-07-27T15:12:17.2891572-03:00;False|2022-07-27T13:44:42.9466283-03:00;True|2022-07-27T13:03:16.7121094-03:00;False|2022-07-27T12:03:35.3488181-03:00;True|2022-07-27T11:38:09.0602537-03:00;True|2022-07-27T10:15:07.0203932-03:00;False|2022-07-27T09:19:27.0119886-03:00;False|2022-07-27T09:07:40.1333866-03:00;True|2022-07-26T16:11:06.7681590-03:00;False|2022-07-26T15:58:42.4785409-03:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="api-ms-win-core-console-l1-1-0.dll">
@@ -135,19 +135,19 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>11/08/2021 20:05:34</publishTime>
     </File>
     <File Include="appsettings - Cópia.Development.json">
-      <publishTime>07/25/2022 21:32:15</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="appsettings - Cópia.json">
-      <publishTime>07/26/2022 14:37:15</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="appsettings.Development.json">
-      <publishTime>07/25/2022 21:32:15</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>07/27/2022 12:33:54</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="appsettings.production.json">
-      <publishTime>07/29/2022 09:13:20</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="BouncyCastle.Crypto.dll">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -161,6 +161,9 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
     <File Include="clrjit.dll">
       <publishTime>11/08/2021 20:05:32</publishTime>
     </File>
+    <File Include="Controllers/ClientesController.cs">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
     <File Include="coreclr.dll">
       <publishTime>11/08/2021 20:05:34</publishTime>
     </File>
@@ -168,28 +171,28 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>11/08/2021 20:05:34</publishTime>
     </File>
     <File Include="dotnet-aspnet-codegenerator-design.dll">
-      <publishTime>07/22/2022 14:52:37</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="GestaoDeClientes.deps.json">
-      <publishTime>07/29/2022 09:13:17</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="GestaoDeClientes.dll">
-      <publishTime>07/29/2022 09:13:11</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="GestaoDeClientes.exe">
-      <publishTime>07/29/2022 09:13:11</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="GestaoDeClientes.pdb">
-      <publishTime>07/29/2022 09:13:11</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="GestaoDeClientes.runtimeconfig.json">
-      <publishTime>07/27/2022 15:13:57</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="GestaoDeClientes.Views.dll">
-      <publishTime>07/29/2022 09:13:16</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="GestaoDeClientes.Views.pdb">
-      <publishTime>07/29/2022 09:13:16</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Google.Protobuf.dll">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -210,106 +213,106 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>03/07/2019 17:39:02</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Antiforgery.dll">
-      <publishTime>07/22/2022 14:52:21</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Authentication.Abstractions.dll">
-      <publishTime>07/22/2022 14:52:22</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Authentication.Cookies.dll">
-      <publishTime>01/17/2020 15:34:22</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Authentication.Core.dll">
-      <publishTime>07/22/2022 14:52:24</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Authentication.dll">
-      <publishTime>07/26/2018 15:17:04</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Authentication.Facebook.dll">
-      <publishTime>07/26/2018 15:17:06</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Authentication.Google.dll">
-      <publishTime>01/17/2019 21:36:02</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Authentication.JwtBearer.dll">
-      <publishTime>08/13/2021 19:15:26</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll">
-      <publishTime>07/26/2018 15:17:08</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Authentication.OAuth.dll">
-      <publishTime>07/26/2018 15:17:06</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Authentication.OpenIdConnect.dll">
-      <publishTime>07/26/2018 15:17:04</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Authentication.Twitter.dll">
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Authentication.WsFederation.dll">
-      <publishTime>07/26/2018 15:17:04</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Authorization.dll">
-      <publishTime>07/26/2018 15:17:08</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Authorization.Policy.dll">
-      <publishTime>07/26/2018 15:17:10</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Connections.Abstractions.dll">
-      <publishTime>07/26/2018 15:17:04</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.CookiePolicy.dll">
       <publishTime>11/10/2019 19:25:54</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Cors.dll">
-      <publishTime>07/22/2022 14:52:26</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Cryptography.Internal.dll">
-      <publishTime>07/22/2022 14:52:27</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Cryptography.KeyDerivation.dll">
-      <publishTime>07/22/2022 14:52:27</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.DataProtection.Abstractions.dll">
-      <publishTime>07/22/2022 14:52:28</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.DataProtection.dll">
-      <publishTime>07/22/2022 14:52:27</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.DataProtection.Extensions.dll">
-      <publishTime>07/22/2022 14:52:28</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Diagnostics.Abstractions.dll">
-      <publishTime>07/22/2022 14:52:29</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Diagnostics.dll">
-      <publishTime>07/22/2022 14:52:28</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll">
-      <publishTime>07/22/2022 14:52:29</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.dll">
       <publishTime>06/12/2018 20:21:56</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.HostFiltering.dll">
-      <publishTime>07/22/2022 14:52:29</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Hosting.Abstractions.dll">
-      <publishTime>07/22/2022 14:52:30</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Hosting.dll">
-      <publishTime>07/22/2022 14:52:30</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Hosting.Server.Abstractions.dll">
-      <publishTime>07/22/2022 14:52:30</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Html.Abstractions.dll">
-      <publishTime>07/22/2022 14:52:30</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Http.Abstractions.dll">
-      <publishTime>07/22/2022 14:52:31</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Http.Connections.Common.dll">
-      <publishTime>09/20/2018 12:08:24</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Http.Connections.dll">
       <publishTime>02/12/2019 19:29:26</publishTime>
@@ -318,181 +321,181 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Http.Extensions.dll">
-      <publishTime>07/30/2020 12:18:54</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Http.Features.dll">
-      <publishTime>07/22/2022 14:52:33</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.HttpOverrides.dll">
-      <publishTime>07/22/2022 14:52:33</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.HttpsPolicy.dll">
-      <publishTime>07/22/2022 14:52:33</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Identity.dll">
-      <publishTime>10/25/2018 15:31:12</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll">
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Identity.UI.dll">
-      <publishTime>04/17/2019 22:57:04</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Identity.UI.Views.dll">
-      <publishTime>04/17/2019 22:56:54</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.JsonPatch.dll">
-      <publishTime>07/22/2022 14:52:37</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Localization.dll">
-      <publishTime>07/22/2022 14:52:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Localization.Routing.dll">
-      <publishTime>07/22/2022 14:52:06</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.MiddlewareAnalysis.dll">
-      <publishTime>07/22/2022 14:52:06</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Mvc.Abstractions.dll">
-      <publishTime>09/20/2018 12:08:28</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Mvc.ApiExplorer.dll">
-      <publishTime>09/20/2018 12:08:26</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Mvc.Core.dll">
-      <publishTime>01/17/2020 15:36:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Mvc.Cors.dll">
-      <publishTime>09/20/2018 12:08:22</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Mvc.DataAnnotations.dll">
-      <publishTime>09/20/2018 12:08:30</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Mvc.dll">
-      <publishTime>09/20/2018 12:08:28</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Mvc.Formatters.Json.dll">
-      <publishTime>04/14/2020 08:55:24</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Mvc.Formatters.Xml.dll">
-      <publishTime>09/20/2018 12:08:28</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Mvc.Localization.dll">
-      <publishTime>09/20/2018 12:08:22</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Mvc.Razor.dll">
-      <publishTime>09/20/2018 12:08:28</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Mvc.Razor.Extensions.dll">
-      <publishTime>07/26/2018 15:17:02</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Mvc.RazorPages.dll">
-      <publishTime>04/17/2019 22:56:14</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Mvc.TagHelpers.dll">
-      <publishTime>09/20/2018 12:08:22</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Mvc.ViewFeatures.dll">
-      <publishTime>09/20/2018 12:08:22</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.NodeServices.dll">
-      <publishTime>07/22/2022 14:52:16</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Owin.dll">
-      <publishTime>07/22/2022 14:52:16</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Razor.dll">
-      <publishTime>07/26/2018 15:17:04</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Razor.Language.dll">
-      <publishTime>07/26/2018 15:17:02</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Razor.Runtime.dll">
-      <publishTime>07/26/2018 15:17:06</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.ResponseCaching.Abstractions.dll">
-      <publishTime>07/22/2022 14:52:33</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.ResponseCaching.dll">
-      <publishTime>07/22/2022 14:52:33</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.ResponseCompression.dll">
-      <publishTime>07/30/2020 12:13:10</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Rewrite.dll">
-      <publishTime>07/22/2022 14:52:33</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Routing.Abstractions.dll">
-      <publishTime>07/22/2022 14:52:34</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Routing.dll">
-      <publishTime>07/22/2022 14:52:34</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Server.HttpSys.dll">
-      <publishTime>06/18/2019 21:51:40</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Server.IISIntegration.dll">
       <publishTime>06/12/2018 20:21:38</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Server.Kestrel.Core.dll">
-      <publishTime>01/26/2021 15:38:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Server.Kestrel.dll">
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Server.Kestrel.Https.dll">
-      <publishTime>07/26/2018 15:17:06</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll">
-      <publishTime>07/26/2018 15:17:06</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll">
-      <publishTime>07/26/2018 15:17:08</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Session.dll">
-      <publishTime>07/22/2022 14:52:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.SignalR.Common.dll">
-      <publishTime>09/20/2018 12:08:26</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.SignalR.Core.dll">
       <publishTime>02/12/2019 19:28:32</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.SignalR.dll">
-      <publishTime>09/20/2018 12:08:22</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.SignalR.Protocols.Json.dll">
-      <publishTime>09/20/2018 12:08:24</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.SpaServices.dll">
-      <publishTime>08/13/2019 23:44:12</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.SpaServices.Extensions.dll">
-      <publishTime>07/22/2022 14:52:39</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.StaticFiles.dll">
-      <publishTime>07/22/2022 14:52:39</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.WebSockets.dll">
       <publishTime>06/12/2018 20:21:44</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.WebUtilities.dll">
-      <publishTime>07/22/2022 14:52:39</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.CodeAnalysis.CSharp.dll">
-      <publishTime>07/22/2022 14:52:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
-      <publishTime>07/22/2022 14:52:22</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.CodeAnalysis.dll">
-      <publishTime>07/22/2022 14:52:14</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.CodeAnalysis.Razor.dll">
-      <publishTime>07/26/2018 15:17:08</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.CodeAnalysis.Workspaces.dll">
-      <publishTime>07/22/2022 14:52:33</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.CSharp.dll">
       <publishTime>11/08/2021 20:05:32</publishTime>
@@ -501,7 +504,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>11/08/2021 20:05:32</publishTime>
     </File>
     <File Include="Microsoft.DotNet.PlatformAbstractions.dll">
-      <publishTime>07/22/2022 14:52:10</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
       <publishTime>11/10/2019 19:28:10</publishTime>
@@ -522,151 +525,151 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>11/10/2019 19:28:58</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Caching.Abstractions.dll">
-      <publishTime>09/21/2020 21:41:34</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Caching.Memory.dll">
-      <publishTime>09/21/2020 21:41:34</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Caching.SqlServer.dll">
-      <publishTime>07/26/2018 15:17:02</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Configuration.Abstractions.dll">
-      <publishTime>07/22/2022 14:52:26</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Configuration.Binder.dll">
-      <publishTime>03/15/2019 13:32:20</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Configuration.CommandLine.dll">
-      <publishTime>07/22/2022 14:52:27</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Configuration.dll">
-      <publishTime>07/22/2022 14:52:26</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Configuration.EnvironmentVariables.dll">
-      <publishTime>07/22/2022 14:52:28</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Configuration.FileExtensions.dll">
-      <publishTime>07/22/2022 14:52:28</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Configuration.Ini.dll">
-      <publishTime>07/22/2022 14:52:28</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Configuration.Json.dll">
-      <publishTime>07/22/2022 14:52:28</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Configuration.KeyPerFile.dll">
-      <publishTime>07/22/2022 14:52:29</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Configuration.UserSecrets.dll">
-      <publishTime>07/22/2022 14:52:29</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Configuration.Xml.dll">
-      <publishTime>07/22/2022 14:52:29</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.DependencyInjection.Abstractions.dll">
-      <publishTime>07/22/2022 14:52:30</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.DependencyInjection.dll">
-      <publishTime>07/22/2022 14:52:30</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.DependencyModel.dll">
-      <publishTime>07/22/2022 14:52:32</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.DiagnosticAdapter.dll">
-      <publishTime>07/22/2022 14:52:32</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.FileProviders.Abstractions.dll">
-      <publishTime>07/22/2022 14:52:33</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.FileProviders.Composite.dll">
-      <publishTime>07/22/2022 14:52:33</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.FileProviders.Embedded.dll">
-      <publishTime>07/22/2022 14:52:35</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.FileProviders.Physical.dll">
-      <publishTime>07/22/2022 14:52:36</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.FileSystemGlobbing.dll">
-      <publishTime>07/22/2022 14:52:36</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Hosting.Abstractions.dll">
-      <publishTime>07/22/2022 14:52:36</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Hosting.dll">
-      <publishTime>07/22/2022 14:52:36</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Http.dll">
-      <publishTime>07/22/2022 14:52:37</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Identity.Core.dll">
-      <publishTime>10/25/2018 15:31:16</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Identity.Stores.dll">
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Localization.Abstractions.dll">
-      <publishTime>07/22/2022 14:52:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Localization.dll">
-      <publishTime>07/22/2022 14:52:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Logging.Abstractions.dll">
-      <publishTime>07/22/2022 14:52:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Logging.Configuration.dll">
-      <publishTime>07/22/2022 14:52:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Logging.Console.dll">
-      <publishTime>07/22/2022 14:52:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Logging.Debug.dll">
-      <publishTime>07/22/2022 14:52:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Logging.dll">
-      <publishTime>07/22/2022 14:52:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Logging.EventSource.dll">
-      <publishTime>07/22/2022 14:52:39</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Logging.TraceSource.dll">
-      <publishTime>07/22/2022 14:52:06</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.ObjectPool.dll">
-      <publishTime>10/25/2018 15:31:20</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Options.ConfigurationExtensions.dll">
-      <publishTime>07/22/2022 14:52:07</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Options.dll">
-      <publishTime>07/22/2022 14:52:06</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Primitives.dll">
-      <publishTime>10/25/2018 15:30:56</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Extensions.WebEncoders.dll">
-      <publishTime>07/22/2022 14:52:08</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.IdentityModel.Logging.dll">
-      <publishTime>07/22/2022 14:52:10</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.IdentityModel.Protocols.dll">
-      <publishTime>07/22/2022 14:52:11</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
-      <publishTime>07/22/2022 14:52:11</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.IdentityModel.Protocols.WsFederation.dll">
-      <publishTime>07/22/2022 14:52:12</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.IdentityModel.Tokens.dll">
-      <publishTime>07/22/2022 14:52:13</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.IdentityModel.Tokens.Saml.dll">
-      <publishTime>07/22/2022 14:52:15</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.IdentityModel.Xml.dll">
-      <publishTime>07/22/2022 14:52:15</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Net.Http.Headers.dll">
       <publishTime>11/10/2019 19:27:02</publishTime>
@@ -675,28 +678,28 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>11/08/2021 20:05:32</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.BrowserLink.dll">
-      <publishTime>07/22/2022 14:52:36</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll">
-      <publishTime>07/22/2022 14:52:36</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Core.dll">
-      <publishTime>07/22/2022 14:52:37</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGeneration.dll">
-      <publishTime>07/22/2022 14:52:36</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll">
-      <publishTime>07/22/2022 14:52:37</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll">
-      <publishTime>07/22/2022 14:52:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll">
-      <publishTime>07/22/2022 14:52:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll">
-      <publishTime>07/22/2022 14:52:07</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.Win32.Primitives.dll">
       <publishTime>11/08/2021 20:05:32</publishTime>
@@ -729,13 +732,13 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>11/08/2021 20:05:32</publishTime>
     </File>
     <File Include="Newtonsoft.Json.Bson.dll">
-      <publishTime>07/22/2022 14:52:11</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Newtonsoft.Json.dll">
-      <publishTime>03/24/2018 14:44:14</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="NuGet.Frameworks.dll">
-      <publishTime>04/24/2018 18:27:10</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Remotion.Linq.dll">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -897,7 +900,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>11/08/2021 20:05:32</publishTime>
     </File>
     <File Include="System.IdentityModel.Tokens.Jwt.dll">
-      <publishTime>07/22/2022 14:52:24</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.Interactive.Async.dll">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -972,7 +975,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>11/08/2021 20:05:32</publishTime>
     </File>
     <File Include="System.Net.Http.Formatting.dll">
-      <publishTime>11/28/2018 10:00:36</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.Net.HttpListener.dll">
       <publishTime>11/08/2021 20:05:32</publishTime>
@@ -1020,7 +1023,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>11/08/2021 20:05:32</publishTime>
     </File>
     <File Include="System.Net.WebSockets.WebSocketProtocol.dll">
-      <publishTime>11/29/2018 12:39:18</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.Numerics.dll">
       <publishTime>11/08/2021 20:05:32</publishTime>
@@ -1149,7 +1152,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>11/08/2021 20:05:32</publishTime>
     </File>
     <File Include="System.Security.Cryptography.Pkcs.dll">
-      <publishTime>11/29/2018 12:39:16</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.Security.Cryptography.Primitives.dll">
       <publishTime>11/08/2021 20:05:32</publishTime>
@@ -1161,13 +1164,13 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>11/08/2021 20:05:32</publishTime>
     </File>
     <File Include="System.Security.Cryptography.Xml.dll">
-      <publishTime>07/22/2022 14:52:27</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.Security.dll">
       <publishTime>11/08/2021 20:05:32</publishTime>
     </File>
     <File Include="System.Security.Permissions.dll">
-      <publishTime>05/15/2018 10:29:40</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.Security.Principal.dll">
       <publishTime>11/08/2021 20:05:32</publishTime>
@@ -1200,7 +1203,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>11/08/2021 20:05:32</publishTime>
     </File>
     <File Include="System.Threading.Channels.dll">
-      <publishTime>07/22/2022 14:52:16</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="System.Threading.dll">
       <publishTime>11/08/2021 20:05:32</publishTime>
@@ -1280,275 +1283,314 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
     <File Include="ucrtbase.dll">
       <publishTime>11/08/2021 20:05:34</publishTime>
     </File>
+    <File Include="Views/Clientes/AtualizarCliente.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Clientes/AtualizarCliente_ORIGINAL.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Clientes/CriarCliente.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Clientes/CriarCliente__ORIGINAL.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Clientes/ExcluirCliente - Cópia.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Clientes/ExcluirCliente.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Clientes/Index - Cópia.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Clientes/Index.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Clientes/PainelClientes.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Clientes/PerfilCliente.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Clientes/_ListarClientes.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>07/29/2022 21:56:19</publishTime>
+    </File>
     <File Include="web.config">
-      <publishTime>07/29/2022 09:13:20</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="WindowsBase.dll">
       <publishTime>11/08/2021 20:05:32</publishTime>
     </File>
     <File Include="wwwroot/css/app.min.css">
-      <publishTime>07/28/2022 12:50:06</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/css/bootstrap-tagsinput.css">
-      <publishTime>07/26/2022 10:40:04</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/css/icons.min.css">
-      <publishTime>07/24/2022 16:55:36</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/css/materialdesignicons.min.css">
-      <publishTime>07/26/2022 21:04:24</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/css/site.css">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/css/site.min.css">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/css/sweetalert2.min.css">
-      <publishTime>07/22/2022 21:57:34</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/css/switchery.min.css">
-      <publishTime>07/25/2022 09:25:45</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/css/_icons.min.css">
-      <publishTime>07/22/2022 21:57:35</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/favicon.ico">
-      <publishTime>07/25/2022 21:32:15</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/avatar-1.jpg">
-      <publishTime>07/22/2022 21:57:37</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/avatar-2.jpg">
-      <publishTime>07/22/2022 21:57:39</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/avatar-3.jpg">
-      <publishTime>07/22/2022 21:57:39</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/avatar-4.jpg">
-      <publishTime>07/22/2022 21:57:40</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/avatar-5.jpg">
-      <publishTime>07/22/2022 21:57:40</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/avatar-6.jpg">
-      <publishTime>07/22/2022 21:57:41</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/avatar-8.jpg">
-      <publishTime>07/22/2022 21:57:41</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/avatar-9.jpg">
-      <publishTime>07/22/2022 21:57:41</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/banner1.svg">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/banner2.svg">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/banner3.svg">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="wwwroot/images/bg.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/dark.png">
-      <publishTime>07/22/2022 21:57:42</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/germany.jpg">
-      <publishTime>07/22/2022 21:57:36</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/italy.jpg">
-      <publishTime>07/22/2022 21:57:36</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/light.png">
-      <publishTime>07/22/2022 21:57:42</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/logo-dark.png">
-      <publishTime>07/22/2022 21:57:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/logo-light.png">
-      <publishTime>07/22/2022 21:57:39</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/logo-sm.png">
-      <publishTime>07/22/2022 21:57:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/nxt_logo.jpg">
-      <publishTime>07/26/2022 10:03:16</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/rtl.png">
-      <publishTime>07/22/2022 21:57:43</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/russia.jpg">
-      <publishTime>07/22/2022 21:57:37</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/spain.jpg">
-      <publishTime>07/22/2022 21:57:37</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/images/us.jpg">
-      <publishTime>07/22/2022 21:57:35</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/app.min.js">
-      <publishTime>07/22/2022 21:57:48</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/bootstrap-tagsinput.min.js">
-      <publishTime>07/26/2022 10:53:01</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/dashboard.init.js">
-      <publishTime>07/22/2022 21:57:47</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/form-advanced.init.js">
-      <publishTime>07/25/2022 09:25:58</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/jquery.chat.js">
-      <publishTime>07/22/2022 21:57:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/jquery.flot.crosshair.js">
-      <publishTime>07/22/2022 21:57:47</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/jquery.flot.js">
-      <publishTime>07/22/2022 21:57:45</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/jquery.flot.pie.js">
-      <publishTime>07/22/2022 21:57:46</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/jquery.flot.resize.js">
-      <publishTime>07/22/2022 21:57:46</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/jquery.flot.selection.js">
-      <publishTime>07/22/2022 21:57:46</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/jquery.flot.stack.js">
-      <publishTime>07/22/2022 21:57:47</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/jquery.flot.time.js">
-      <publishTime>07/22/2022 21:57:45</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/jquery.flot.tooltip.min.js">
-      <publishTime>07/22/2022 21:57:45</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/jquery.scrollTo.min.js">
-      <publishTime>07/22/2022 21:57:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/jquery.todo.js">
-      <publishTime>07/22/2022 21:57:45</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/moment.min.js">
-      <publishTime>07/22/2022 21:57:43</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/site.js">
-      <publishTime>07/27/2022 00:28:33</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/site.min.js">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/sweetalert2.min.js">
-      <publishTime>07/22/2022 21:57:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/switchery.min.js">
-      <publishTime>07/25/2022 09:25:55</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/vendor.min.js">
-      <publishTime>07/22/2022 21:57:43</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/.bower.json">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
-      <publishTime>07/22/2022 21:57:34</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/js/npm.js">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/index/bootstrap.min.css">
-      <publishTime>07/26/2022 12:46:37</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/LICENSE">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery-validation-unobtrusive/.bower.json">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery-validation/.bower.json">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery/.bower.json">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery/dist/jquery.js">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery/LICENSE.txt">
-      <publishTime>07/22/2022 15:23:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="ZstdNet.dll">
       <publishTime>06/10/2022 17:34:18</publishTime>
@@ -1558,10 +1600,5 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
     <DestinationConnectionStrings Include="ConexaoBD">
       <Value>Data Source=SQL5053.site4now.net%3bInitial Catalog=db_a8ac05_gestaodeclientes%3bUser Id=db_a8ac05_gestaodeclientes_admin%3bPassword=S3V3rino</Value>
     </DestinationConnectionStrings>
-  </ItemGroup>
-  <ItemGroup>
-    <EFMigrations Include="GestaoDeClientes.Models.Contexto">
-      <Value>Data Source=SQL5053.site4now.net%3bInitial Catalog=db_a8ac05_gestaodeclientes%3bUser Id=db_a8ac05_gestaodeclientes_admin%3bPassword=S3V3rino</Value>
-    </EFMigrations>
   </ItemGroup>
 </Project>

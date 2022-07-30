@@ -20,6 +20,7 @@ C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\
 C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\PubTmp\Out\wwwroot\images\banner1.svg
 C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\PubTmp\Out\wwwroot\images\banner2.svg
 C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\PubTmp\Out\wwwroot\images\banner3.svg
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\PubTmp\Out\wwwroot\images\bg.jpg
 C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\PubTmp\Out\wwwroot\images\dark.png
 C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\PubTmp\Out\wwwroot\images\germany.jpg
 C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\PubTmp\Out\wwwroot\images\italy.jpg

@@ -1,0 +1,474 @@
+﻿@model GestaoDeClientes.Models.Cliente
+
+@{
+    ViewData["Title"] = "PerfilCliente";
+}
+
+
+<!-- Start Content-->
+
+<div class="wraper">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="bg-picture text-center"
+                 style="background-image: url('~/images/bg.jpg')">
+                <div class="bg-picture-overlay"></div>
+                <div class="profile-info-name">
+                    <img src="~/images/avatar-8.jpg"
+                         class="avatar-xl rounded-circle img-thumbnail" alt="profile-image">
+                    <h3 class="text-white">@Model.ClienteNome</h3>
+                </div>
+            </div>
+            <!--/ meta -->
+        </div>
+    </div>
+
+    <div class="row user-tabs">
+        <div class="col-md-9 col-xl-6">
+            <ul class="nav nav-tabs tabs-bordered nav-justified" role="tablist">
+                <li class="nav-item tab">
+                    <a class="nav-link active" id="about-tab" data-toggle="tab" href="#" role="tab"
+                       aria-controls="about" aria-selected="true">
+                        <span class="d-block d-sm-none"><i class="fa fa-home"></i></span>
+                        <span class="d-none d-sm-block">Sobre</span>
+                    </a>
+                </li>
+                <li class="nav-item tab">
+                    <a class="nav-link" id="activities-tab" data-toggle="tab" href="#" role="tab"
+                       aria-controls="activities" aria-selected="false">
+                        <span class="d-block d-sm-none"><i class="fa fa-user"></i></span>
+                        <span class="d-none d-sm-block">Diários</span>
+                    </a>
+                </li>
+                <li class="nav-item tab">
+                    <a class="nav-link" id="projects-tab" data-toggle="tab" href="#" role="tab"
+                       aria-controls="projects" aria-selected="false">
+                        <span class="d-block d-sm-none"><i class="fa fa-envelope"></i></span>
+                        <span class="d-none d-sm-block">TV</span>
+                    </a>
+                </li>
+                <li class="nav-item tab">
+                    <a class="nav-link" id="setting-tab" data-toggle="tab" href="#" role="tab"
+                       aria-controls="setting" aria-selected="false">
+                        <span class="d-block d-sm-none"><i class="fa fa-cog"></i></span>
+                        <span class="d-none d-sm-block">Rádio</span>
+                    </a>
+                </li>
+                <li class="nav-item tab">
+                    <a class="nav-link" id="setting-tab" data-toggle="tab" href="#" role="tab"
+                       aria-controls="setting" aria-selected="false">
+                        <span class="d-block d-sm-none"><i class="fa fa-cog"></i></span>
+                        <span class="d-none d-sm-block">Internet</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="d-none d-sm-block col-6 col-md-3 col-xl-6">
+            <div class="float-right mt-2">
+                <a asp-action="PainelClientes" class=" btn btn-primary btn-rounded ">
+                    <span class="material-icons">
+                        arrow_back
+                    </span>
+                    voltar
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+
+        <div class="tab-content profile-tab-content">
+            <div class="tab-pane show active" id="about" role="tabpanel"
+                 aria-labelledby="about-tab">
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <!-- Personal-Information -->
+                        <div class="card card-default card-fill">
+                            <div class="card-header">
+                                <h3 class="card-title">Dados Pessoais</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="about-info-p">
+                                    <strong>Nome Completo</strong>
+                                    <br>
+                                    <p class="text-muted">@Model.ClienteNome</p>
+                                </div>
+                                <div class="about-info-p">
+                                    <strong>Celular</strong>
+                                    <br>
+                                    <p class="text-muted">@Model.ClienteCelular</p>
+                                </div>
+                                <div class="about-info-p">
+                                    <strong>E-mail</strong>
+                                    <br>
+                                    <p class="text-muted">@Model.ClienteEmail</p>
+                                </div>
+                                <div class="about-info-p mb-0">
+                                    <strong>Estado</strong>
+                                    <br>
+                                    <p class="text-muted mb-0">@Model.ClienteEstado</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Personal-Information -->
+                        <!-- Languages -->
+                        <div class="card card-default card-fill">
+                            <div class="card-header">
+                                <h3 class="card-title">Termos monitorados</h3>
+                            </div>
+                            <div class="card-body">
+                                <ul class="mb-0">
+                                    <li>Juliano da Silva</li>
+                                    <li>Prefeitura do Recife</li>
+                                    <li>software</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Languages -->
+
+                    </div>
+
+                    <div class="col-lg-8">
+                        <!-- Personal-Information -->
+                        <div class="card card-default card-fill">
+                            <div class="card-header">
+                                <h3 class="card-title">Dossiê</h3>
+                            </div>
+                            <div class="card-body">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industry's
+                                    standard dummy text ever since the 1500s, when an unknown
+                                    printer took a galley of type and scrambled it to make a
+                                    type specimen book. It has survived not only five centuries,
+                                    but also the leap into electronic typesetting, remaining
+                                    essentially unchanged.
+                                </p>
+
+                                <p>
+                                    <strong>
+                                        But also the leap into electronic typesetting,
+                                        remaining essentially unchanged.
+                                    </strong>
+                                </p>
+
+                                <p class="mb-0">
+                                    It was popularised in the 1960s with the release
+                                    of Letraset sheets containing Lorem Ipsum passages, and more
+                                    recently with desktop publishing software like Aldus
+                                    PageMaker including versions of Lorem Ipsum.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Personal-Information -->
+
+                        <div class="card card-default card-fill">
+                            <div class="card-header">
+                                <h3 class="card-title">Monitoramento</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="mb-4">
+                                    <h6>Diários Oficiais <span class="float-right">20%</span></h6>
+                                    <div class="progress progress-sm">
+                                        <div class="progress-bar bg-primary wow animated progress-animated"
+                                             role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                                             aria-valuemax="100" style="width: 20%">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mb-4">
+                                    <h6>TV <span class="float-right">40%</span></h6>
+                                    <div class="progress progress-sm">
+                                        <div class="progress-bar bg-pink wow animated progress-animated"
+                                             role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                             aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">90% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mb-4">
+                                    <h6>Rádio <span class="float-right">10%</span></h6>
+                                    <div class="progress progress-sm">
+                                        <div class="progress-bar bg-purple wow animated progress-animated"
+                                             role="progressbar" aria-valuenow="10" aria-valuemin="0"
+                                             aria-valuemax="100" style="width: 10%">
+                                            <span class="sr-only">80% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mb-0">
+                                    <h6>
+                                        Internet <span class="float-right">20%</span>
+                                    </h6>
+                                    <div class="progress progress-sm mb-0">
+                                        <div class="progress-bar bg-info wow animated progress-animated"
+                                             role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                                             aria-valuemax="100" style="width: 20%">
+                                            <span class="sr-only">95% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="tab-pane" id="activities" aria-labelledby="activities-tab">
+                <!-- Personal-Information -->
+                <div class="card card-default card-fill">
+
+                    <div class="card-body">
+                        <div class="timeline-2">
+                            <div class="time-item">
+                                <div class="item-info">
+                                    <div class="text-muted">5 minutes ago</div>
+                                    <p>
+                                        <strong>
+                                            <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-profile.html#"
+                                               class="text-info">John Doe</a>
+                                        </strong> Uploaded
+                                        a photo <strong>"DSC000586.jpg"</strong>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="time-item">
+                                <div class="item-info">
+                                    <div class="text-muted">30 minutes ago</div>
+                                    <p>
+                                        <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-profile.html"
+                                           class="text-info">Lorem</a> commented your post.
+                                    </p>
+                                    <p>
+                                        <em>
+                                            "Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Aliquam laoreet tellus ut tincidunt euismod.
+                                            "
+                                        </em>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="time-item">
+                                <div class="item-info">
+                                    <div class="text-muted">59 minutes ago</div>
+                                    <p>
+                                        <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-profile.html"
+                                           class="text-info">Jessi</a> attended a meeting
+                                        with<a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-profile.html#"
+                                               class="text-success">John Doe</a>.
+                                    </p>
+                                    <p>
+                                        <em>
+                                            "Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Aliquam laoreet tellus ut tincidunt euismod.
+                                            "
+                                        </em>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="time-item">
+                                <div class="item-info">
+                                    <div class="text-muted">5 minutes ago</div>
+                                    <p>
+                                        <strong>
+                                            <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-profile.html#"
+                                               class="text-info">John Doe</a>
+                                        </strong>Uploaded
+                                        2 new photos
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="time-item">
+                                <div class="item-info">
+                                    <div class="text-muted">30 minutes ago</div>
+                                    <p>
+                                        <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-profile.html"
+                                           class="text-info">Lorem</a> commented your post.
+                                    </p>
+                                    <p>
+                                        <em>
+                                            "Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Aliquam laoreet tellus ut tincidunt euismod.
+                                            "
+                                        </em>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="time-item">
+                                <div class="item-info">
+                                    <div class="text-muted">59 minutes ago</div>
+                                    <p>
+                                        <a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-profile.html"
+                                           class="text-info">Jessi</a> attended a meeting
+                                        with<a href="https://coderthemes.com/moltran/layouts/blue-horizontal/pages-profile.html#"
+                                               class="text-success">John Doe</a>.
+                                    </p>
+                                    <p>
+                                        <em>
+                                            "Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Aliquam laoreet tellus ut tincidunt euismod.
+                                            "
+                                        </em>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Personal-Information -->
+            </div>
+
+            <div class="tab-pane" id="projects" aria-labelledby="projects-tab">
+
+                <!-- Personal-Information -->
+                <div class="card card-default card-fill">
+                    <div class="card-header">
+                        <h3 class="card-title">My Projects</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Project Name</th>
+                                        <th>Start Date</th>
+                                        <th>Due Date</th>
+                                        <th>Status</th>
+                                        <th>Assign</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Moltran Admin</td>
+                                        <td>01/01/2015</td>
+                                        <td>07/05/2015</td>
+                                        <td>
+                                            <span class="badge badge-info">
+                                                Work in
+                                                Progress
+                                            </span>
+                                        </td>
+                                        <td>Coderthemes</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Moltran Frontend</td>
+                                        <td>01/01/2015</td>
+                                        <td>07/05/2015</td>
+                                        <td>
+                                            <span class="badge badge-success">Pending</span>
+                                        </td>
+                                        <td>Coderthemes</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Moltran Admin</td>
+                                        <td>01/01/2015</td>
+                                        <td>07/05/2015</td>
+                                        <td><span class="badge badge-pink">Done</span></td>
+                                        <td>Coderthemes</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Moltran Frontend</td>
+                                        <td>01/01/2015</td>
+                                        <td>07/05/2015</td>
+                                        <td>
+                                            <span class="badge badge-purple">
+                                                Work in
+                                                Progress
+                                            </span>
+                                        </td>
+                                        <td>Coderthemes</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Moltran Admin</td>
+                                        <td>01/01/2015</td>
+                                        <td>07/05/2015</td>
+                                        <td>
+                                            <span class="badge badge-warning">Coming soon</span>
+                                        </td>
+                                        <td>Coderthemes</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Personal-Information -->
+            </div>
+
+            <div class="tab-pane" id="setting" aria-labelledby="setting-tab">
+
+                <!-- Personal-Information -->
+                <div class="card card-default card-fill">
+                    <div class="card-header">
+                        <h3 class="card-title">Edit Profile</h3>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="FullName">Full Name</label>
+                                <input type="text" value="John Doe" id="FullName"
+                                       class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="Email">Email</label>
+                                <input type="email" value="first.last@example.com" id="Email"
+                                       class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="Username">Username</label>
+                                <input type="text" value="john" id="Username" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="Password">Password</label>
+                                <input type="password" placeholder="6 - 15 Characters" id="Password"
+                                       class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="RePassword">Re-Password</label>
+                                <input type="password" placeholder="6 - 15 Characters"
+                                       id="RePassword" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="AboutMe">Sobre</label>
+                                <textarea style="height: 125px" id="AboutMe"
+                                          class="form-control">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</textarea>
+                            </div>
+                            <button class="btn btn-primary waves-effect waves-light w-md"
+                                    type="submit">
+                                Save
+                            </button>
+                        </form>
+
+                    </div>
+                </div>
+                <!-- Personal-Information -->
+            </div>
+        </div>
+    </div>
+</div>
+
+ 
+<!-- end container-fluid -->

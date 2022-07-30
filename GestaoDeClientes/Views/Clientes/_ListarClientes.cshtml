@@ -1,0 +1,147 @@
+﻿@model IEnumerable<GestaoDeClientes.Models.Cliente>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<link href="~/lib/bootstrap/index/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-stylesheet">
+
+<!-- Begin page -->
+<div id="wrapper">
+
+    <div class="container-fluid">
+
+        <div class="tab-content profile-tab-content">
+            <p>
+                <a asp-action="CriarCliente" class="btn btn-block btn-lighten-success">Novo Cliente</a>
+            </p>
+            <!-- Personal-Information -->
+            <div class="card card-default card-fill">
+                <div class="card-header">
+                    <h3 class="card-title">Catálogo de Clientes</h3>
+                </div>
+                <div class="card-body">
+                    <!---->
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <!--th>
+                                @Html.DisplayNameFor(model => model.ClientePerfil)
+                            </th-->
+                                    <th>
+
+                                        Nome
+                                    </th>
+                                    <th>
+                                        Empresa
+                                    </th>
+                                    <!--th>
+                                @Html.DisplayNameFor(model => model.ClienteNomeFantasia)
+                            </th-->
+                                    <th>
+                                        CPF/CNPJ
+                                    </th>
+                                    <!--th>
+                                @Html.DisplayNameFor(model => model.ClienteTelefone)
+                            </th-->
+                                    <th>
+                                        Celular
+                                    </th>
+                                    <th>
+                                        Email
+                                    </th>
+                                    <!--th>
+                                @Html.DisplayNameFor(model => model.ClienteRua)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ClienteNumero)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ClienteCep)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ClienteCidade)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ClienteEstado)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ClienteEndComplem)
+                            </th-->
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                <tr>
+                                    <!--td>
+                                @Html.DisplayFor(modelItem => item.ClientePerfil)
+                            </td-->
+                                    <td>
+
+                                        @Html.DisplayFor(modelItem => item.ClienteNome)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.ClienteEmpresa)
+                                    </td>
+                                    <!--td>
+                                @Html.DisplayFor(modelItem => item.ClienteNomeFantasia)
+                            </td-->
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.ClienteCpfCnpj)
+                                    </td>
+                                    <!--td>
+                                @Html.DisplayFor(modelItem => item.ClienteTelefone)
+                            </td-->
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.ClienteCelular)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.ClienteEmail)
+                                    </td>
+                                    <!--td>
+                                @Html.DisplayFor(modelItem => item.ClienteRua)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ClienteNumero)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ClienteCep)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ClienteCidade)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ClienteEstado)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ClienteEndComplem)
+                            </td-->
+                                    <td>
+                                        <a style="color:burlywood" asp-action="AtualizarCliente" asp-route-id="@item.ClienteId"><i class="material-icons">edit</i></a>
+                                        <a style="color:lightcoral" asp-action="ExcluirCliente" asp-route-id="@item.ClienteId" alt="Excluir"><i class="material-icons">clear</i></a>
+                                    </td>
+                                </tr>
+                            }
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- Personal-Information -->
+
+        </div>
+
+        <!-- end container-fluid -->
+
+    </div>
+
+
+    <!-- ============================================================== -->
+    <!-- End Page content -->
+    <!-- ============================================================== -->
+
+</div>

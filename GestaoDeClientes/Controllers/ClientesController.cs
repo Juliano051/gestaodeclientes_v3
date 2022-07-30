@@ -20,14 +20,28 @@ namespace GestaoDeClientes.Controllers
         {
             return View(await _contexto.Clientes.ToListAsync());
         }
+
+        
+        public async Task<IActionResult> PainelClientes()
+        {
+            return View(await _contexto.Clientes.ToListAsync());
+        }
+
+
         [HttpGet]
-        public IActionResult CriarCliente()
+        public async Task<IActionResult> ListarClientes()
+        {
+            return View(await _contexto.Clientes.ToListAsync());
+        }
+
+        [HttpGet]
+        public IActionResult NovoCliente()
         {
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> CriarCliente(Cliente cliente)
+        public async Task<IActionResult> NovoCliente(Cliente cliente)
         {
             if (ModelState.IsValid)
             {
@@ -42,7 +56,18 @@ namespace GestaoDeClientes.Controllers
         }
 
         [HttpGet]
-        public IActionResult AtualizarCliente(int? id)
+        public IActionResult AtualizarCliente(int id)
+        {
+            if (id != null)
+            {
+                Cliente cliente = _contexto.Clientes.Find(id);
+                return View(cliente);
+            }
+            else return NotFound();
+        }
+
+        [HttpGet]
+        public IActionResult PerfilCliente(int? id)
         {
             if (id != null)
             {
@@ -53,10 +78,9 @@ namespace GestaoDeClientes.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AtualizarCliente(int? id, Cliente cliente)
+        public async Task<IActionResult> AtualizarCliente(int id, Cliente cliente)
         {
-            if(id != null)
-            {
+            
                 if (ModelState.IsValid)
                 {
                     _contexto.Update(cliente);
@@ -64,8 +88,7 @@ namespace GestaoDeClientes.Controllers
                     return RedirectToAction(nameof(Index));
                 }
                 else return View(cliente);
-            }
-            else return NotFound();
+           
         }
 
         [HttpGet]

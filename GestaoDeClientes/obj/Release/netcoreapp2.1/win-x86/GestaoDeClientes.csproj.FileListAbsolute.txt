@@ -49,3 +49,6 @@ C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\
 C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\bin\Release\netcoreapp2.1\win-x86\hostpolicy.dll
 C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\bin\Release\netcoreapp2.1\win-x86\hostfxr.dll
 C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\GestaoDeClientes.csproj.AssemblyReference.cache
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Clientes\_ListarClientes.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Clientes\PerfilCliente.cshtml.g.cs
+C:\Users\juliano.silva\Desktop\Projeto_v3\GestaoDeClientes\GestaoDeClientes\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Clientes\PainelClientes.cshtml.g.cs
